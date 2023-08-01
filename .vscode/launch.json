@@ -1,0 +1,40 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Bert Original",
+            "type": "python",
+            "request": "launch",
+            "program": "bert_original.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Bert Slice",
+            "type": "python",
+            "request": "launch",
+            "program": "bert_slice.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "GPT2 Slice",
+            "type": "python",
+            "request": "launch",
+            "program": "gpt2_slice.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "GPT2 Original",
+            "type": "python",
+            "request": "launch",
+            "program": "gpt2_original.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
