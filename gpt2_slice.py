@@ -230,6 +230,7 @@ def validate(data_loader, device_id, print_freq=10):
 
             # compute output
             output = model(images)
+            output = output.last_hidden_state
             # loss = criterion(output, target)
 
             if i == prof_step:  # add profile

@@ -951,7 +951,7 @@ class GPT2Model(GPT2PreTrainedModel):
         #             if i == v[-1] and "cuda:" + str(k) != self.last_device:
         #                 hidden_states = hidden_states.to("cuda:" + str(k + 1))
 
-        self.hh(
+        hidden_states = self.hh(
             hidden_states,
             layer_past=past_key_values,  # 原本是layer_past
             attention_mask=attention_mask,

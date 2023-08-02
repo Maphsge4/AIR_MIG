@@ -6,6 +6,7 @@
 
 from transformers import GPT2Tokenizer, GPT2Config, GPT2Model
 import torch
+import torch.nn as nn
 import os 
 from profiler import FlopsProfiler
 
@@ -209,7 +210,8 @@ def validate(data_loader, device_id, print_freq=10):
 
             # compute output
             output = model(images)
-            # loss = criterion(output, target)
+            output = output.last_hidden_state
+            # print(output)  # debug
 
             if i == prof_step:  # add profile
                 prof.print_model_profile(profile_step=i)

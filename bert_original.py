@@ -627,8 +627,8 @@ def validate(
             # compute output
             output = model(images)
             # print(model)
-            # loss = criterion(output, target)
-            # print("output: ", output)  # debug
+            loss = criterion(output[0], target)
+            print("loss: ", loss)  # debug
 
             if i == prof_step:  # add profile
                 prof.print_model_profile(profile_step=i)
