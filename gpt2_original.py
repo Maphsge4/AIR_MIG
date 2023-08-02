@@ -8,7 +8,7 @@ from transformers import GPT2Tokenizer, GPT2Config, GPT2Model
 import torch
 import torch.nn as nn
 import os 
-from profiler import FlopsProfiler
+from lib.profiler import FlopsProfiler
 
 model_name = 'gpt2-large'
 batch_size = 32

@@ -34,7 +34,7 @@ from torch.utils.data import DataLoader
 
 from transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARCHIVE_MAP
 from lib.my_offload import OffloadModel 
-from profiler import FlopsProfiler 
+from lib.profiler import FlopsProfiler 
 
 BERT_CONFIGS = {
     "bert-base-uncased": {
@@ -337,6 +337,7 @@ def initialize_model(
         num_slices=10, # 模型应分片的片数
         checkpoint_activation=True,
         num_microbatches=1,
+        device_list=[0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1]
     )
     # print(mlist)  # debug
     # setattr(model,"layers",mlist)   

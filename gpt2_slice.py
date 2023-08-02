@@ -8,7 +8,7 @@ from lib.transformers import GPT2Tokenizer, GPT2Config, GPT2Model
 import torch
 import os
 import torch.nn as nn
-from profiler import FlopsProfiler
+from lib.profiler import FlopsProfiler
 from lib.my_offload import OffloadModel 
 from typing import List, Tuple
 

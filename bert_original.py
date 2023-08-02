@@ -34,7 +34,7 @@ from torch.utils.data import DataLoader
 
 from transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARCHIVE_MAP
 
-from profiler import FlopsProfiler
+from lib.profiler import FlopsProfiler
 
 BERT_CONFIGS = {
     "bert-base-uncased": {
