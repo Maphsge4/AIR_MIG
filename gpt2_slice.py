@@ -9,7 +9,7 @@ import torch
 import os
 import torch.nn as nn
 from profiler import FlopsProfiler
-from my_offload import OffloadModel 
+from lib.my_offload import OffloadModel 
 from typing import List, Tuple
 
 model_name = 'gpt2-large'

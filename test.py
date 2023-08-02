@@ -6,7 +6,7 @@ import time
 import logging
 
 # 引入Offload
-from my_offload import OffloadModel
+from lib.my_offload import OffloadModel
 
 logging.getLogger().setLevel(logging.INFO)
 

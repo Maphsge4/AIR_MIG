@@ -33,7 +33,7 @@ from torch.optim import SGD
 from torch.utils.data import DataLoader
 
 from transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARCHIVE_MAP
-from my_offload import OffloadModel 
+from lib.my_offload import OffloadModel 
 from profiler import FlopsProfiler 
 
 BERT_CONFIGS = {
