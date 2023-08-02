@@ -456,6 +456,7 @@ class OffloadModel(nn.Module):
         num_slices: int = 3,
         checkpoint_activation: bool = False,
         num_microbatches: int = 1,
+        device_list = None
     ):
         super().__init__()
         if not model:
