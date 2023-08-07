@@ -348,8 +348,8 @@ class ShardSyncLayer(torch.autograd.Function):
             nvtx.range_push(f"forward_drop{drop_index}")
             model_slices[drop_index].forward_drop()
             nvtx.range_pop()
-        else:  # add select n
-            print(model_instance.device_list)  # debug
+        # else:  # add select n
+        #     print(model_instance.device_list)  # debug
 
         if load_index < max_slices:
             # Load shard from offload device to device.

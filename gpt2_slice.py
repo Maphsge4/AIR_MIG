@@ -215,8 +215,8 @@ def validate(data_loader, device_id, print_freq=10):
     import time
 
     prof = FlopsProfiler(model)  # add profile
-    prof_step = len(data_loader) // 3  # 整除3，所以会在33%的时候输出profile！
-    # prof_step = 2  # debug
+    # prof_step = len(data_loader) // 3  # 整除3，所以会在33%的时候输出profile！
+    prof_step = 30  # debug
 
     with torch.no_grad():
         end = time.time()
@@ -250,5 +250,8 @@ def validate(data_loader, device_id, print_freq=10):
             if i % print_freq == 0:
                 progress.display(i)
                 print(torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+
+            if i == prof_step:
+                return 999
 
 validate(dataloader, device_id)

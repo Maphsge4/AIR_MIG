@@ -625,7 +625,7 @@ def validate(
 
     prof = FlopsProfiler(model)  # add profiler
     # prof_step = len(val_loader) // 3  # 整除3，所以会在33%的时候输出profile！
-    prof_step = 100  # debug
+    prof_step = 30  # debug
 
     with torch.no_grad():
         end = time.time()

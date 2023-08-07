@@ -611,7 +611,7 @@ def validate(
 
     prof = FlopsProfiler(model)  # add profiler
     # prof_step = len(val_loader) // 3  # 整除3，所以会在33%的时候输出profile！
-    prof_step = 100  # debug
+    prof_step = 30  # debug
 
     with torch.no_grad():
         end = time.time()
@@ -627,8 +627,8 @@ def validate(
             # compute output
             output = model(images)
             # print(model)
-            loss = criterion(output[0], target)
-            print("loss: ", loss)  # debug
+            # loss = criterion(output[0], target)
+            # print("loss: ", loss)  # debug
 
             if i == prof_step:  # add profile
                 prof.print_model_profile(profile_step=i)
