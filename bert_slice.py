@@ -32,7 +32,7 @@ from torch.nn.parallel import DistributedDataParallel
 from torch.optim import SGD
 from torch.utils.data import DataLoader
 
-from transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARCHIVE_MAP
+from lib.transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARCHIVE_MAP
 from lib.my_offload import OffloadModel 
 from lib.profiler import FlopsProfiler 
 

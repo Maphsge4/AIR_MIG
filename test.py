@@ -6,7 +6,7 @@ import time
 import logging
 
 # 引入Offload
-from lib.my_offload import OffloadModel
+from lib.offload_selectn import OffloadModel
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -42,6 +42,7 @@ offload_model = OffloadModel(  # 使用 OffloadModel 来包装模型
     num_slices=3,  # 模型应分片的片数
     checkpoint_activation=False,
     num_microbatches=1,
+    device_list=[0, 0, 1]
 )
 
 torch.cuda.set_device(0)

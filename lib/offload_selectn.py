@@ -12,7 +12,7 @@ from typing import Any, List, Tuple, Optional, Union
 import torch
 from torch import nn
 import logging
-import torch.cuda.nvtx as nvtx
+
 
 def _conditional_amp_fwd_decorator(orig_func):  # type: ignore
 
@@ -338,24 +338,18 @@ class ShardSyncLayer(torch.autograd.Function):
 
     @staticmethod
     @_conditional_amp_fwd_decorator  # type: ignore
-    def forward(ctx: Any, inputs: Any, index: int, model_slices: Any, model_instance: Any) -> Any:  # ctx到底是什么东西？
+    def forward(ctx: Any, inputs: Any, index: int, model_slices: Any, model_instance: Any) -> Any:
         drop_index = index
         load_index = index + 1
         max_slices = len(model_slices)
 
         if drop_index >= 0:
             # Move shard from device to offload device.
-            nvtx.range_push(f"forward_drop{drop_index}")
             model_slices[drop_index].forward_drop()
-            nvtx.range_pop()
-        else:  # add select n
-            print(model_instance.device_list)  # debug
 
         if load_index < max_slices:
             # Load shard from offload device to device.
-            nvtx.range_push(f"forward_load{load_index}")
             model_slices[load_index].forward_load()
-            nvtx.range_pop()
 
         ctx.index = index
         ctx.model_slices = model_slices
@@ -549,23 +543,16 @@ class OffloadModel(nn.Module):
                 _['head_mask'] = head_mask[index]  # maphsge4 add
                 # TODO(anj-s): This might be a redundant call since we have the previous
                 # activation on the device already.
-                print(a for a in list(self._activations[index]))  # 打印activation的大小
                 self._activations[index] = tuple([a.cuda() for a in list(self._activations[index])])
-                # print(inputs[i].numel() for i in list)  # 打印activation的大小
-
                 inputs = self._activations[index]
-                nvtx.range_push(f"shard {index} forward")
                 inputs = self.model_slices[index](*inputs, **_)[0]  # 实际上是调用slices的forward
-                nvtx.range_pop()
             # Call the custom autograd hooks (discard/load slices FW and BW)
             inputs = ShardSyncLayer.apply(inputs, index, self.model_slices, self)  # 手动实现
             self._activations.append(inputs)
             if index >= 0:
-                nvtx.range_push(f"a.cpu()")
                 self._activations[index] = tuple([a.cpu() for a in list(self._activations[index])])
-                nvtx.range_pop()
 
         result = self._activations[-1]
         result = tuple([r.cuda() for r in result])
         return result[0] if len(result) == 1 else result
-
+    
