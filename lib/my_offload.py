@@ -543,29 +543,36 @@ class OffloadModel(nn.Module):
         self._activations = []
         past_key_values = _['layer_past']  # maphsge4 add
         head_mask = _['head_mask']  # maphsge4 add
+        last_inputs = inputs
         for index in range(-1, len(self.model_slices)):
             if index >= 0:
                 _['layer_past'] = past_key_values[index]  # maphsge4 add
                 _['head_mask'] = head_mask[index]  # maphsge4 add
                 # TODO(anj-s): This might be a redundant call since we have the previous
                 # activation on the device already.
-                print(a for a in list(self._activations[index]))  # 打印activation的大小
-                self._activations[index] = tuple([a.cuda() for a in list(self._activations[index])])
+                # print(index)  # activation
+                # for a in list(self._activations[index]):
+                #     print(a.numel())  # 打印activation的大小，叶哥说是12M
+                # self._activations[index] = tuple([a.cuda() for a in list(self._activations[index])])
                 # print(inputs[i].numel() for i in list)  # 打印activation的大小
 
-                inputs = self._activations[index]
+                # inputs = self._activations[index]
+                inputs = last_inputs
                 nvtx.range_push(f"shard {index} forward")
                 inputs = self.model_slices[index](*inputs, **_)[0]  # 实际上是调用slices的forward
                 nvtx.range_pop()
             # Call the custom autograd hooks (discard/load slices FW and BW)
             inputs = ShardSyncLayer.apply(inputs, index, self.model_slices, self)  # 手动实现
-            self._activations.append(inputs)
+            # self._activations.append(inputs)
+
             if index >= 0:
                 nvtx.range_push(f"a.cpu()")
-                self._activations[index] = tuple([a.cpu() for a in list(self._activations[index])])
+                # self._activations[index] = tuple([a.cpu() for a in list(self._activations[index])])
+                last_inputs = inputs
                 nvtx.range_pop()
 
-        result = self._activations[-1]
-        result = tuple([r.cuda() for r in result])
+        # result = self._activations[-1]
+        # result = tuple([r.cuda() for r in result])
+        result = last_inputs
         return result[0] if len(result) == 1 else result
 
