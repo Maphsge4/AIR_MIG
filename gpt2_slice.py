@@ -7,6 +7,9 @@
 from lib.transformers import GPT2Tokenizer, GPT2Config, GPT2Model
 import torch
 import os
+import pathlib
+import datetime
+import gc
 import torch.nn as nn
 from lib.profiler import FlopsProfiler
 from lib.my_offload import OffloadModel 
@@ -96,7 +99,7 @@ seed_all(1)
 
 config = GPT2Config(**gpt2_config[model_name])
 model = GPT2Model(config=config)
-device_id = 0
+device_id = 1
 torch.cuda.set_device(device_id)
 print(f"=> model params: {sum(p.numel() for p in model.parameters())}")
 
@@ -159,7 +162,7 @@ def prepare_dataloader(length, batch_size):
 
     return loader
 
-dataloader = prepare_dataloader(1000 * batch_size, batch_size)
+dataloader = prepare_dataloader(3 * batch_size, batch_size)
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
@@ -202,6 +205,9 @@ class ProgressMeter(object):
         return "[" + fmt + "/" + fmt.format(num_batches) + "]"
 
 def validate(data_loader, device_id, print_freq=10):
+    trace_dir = pathlib.Path(__file__).parent.joinpath("traces")
+    now = datetime.datetime.now().strftime("%Y_%m_%d:%H.%M.%S")
+    trace_dir.mkdir(exist_ok=True)
     # print("yes!!!")
     batch_time = AverageMeter("Time", ":6.3f")
     losses = AverageMeter("Loss", ":.4e")
@@ -221,39 +227,48 @@ def validate(data_loader, device_id, print_freq=10):
 
     with torch.no_grad():
         end = time.time()
-        for i, (images, target) in enumerate(data_loader):
-            if i == prof_step:  # add profile
-                prof.start_profile()
+        gc.collect()
+        with torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True) as p:
+            for i, (images, target) in enumerate(data_loader):
+                # gc.collect()
+                if i == prof_step:  # add profile
+                    prof.start_profile()
 
-            if device_id is not None:
-                images = images.cuda(device_id, non_blocking=True)
-            target = target.cuda(device_id, non_blocking=True)
+                if device_id is not None:
+                    images = images.cuda(device_id, non_blocking=True)
+                target = target.cuda(device_id, non_blocking=True)
 
-            # compute output
-            output = model(images)
-            output = output.last_hidden_state
-            # loss = criterion(output, target)
+                # compute output
+                output = model(images)
+                output = output.last_hidden_state
+                # loss = criterion(output, target)
 
-            if i == prof_step:  # add profile
-                prof.print_model_profile(profile_step=i)
-                prof.end_profile()
+                if i == prof_step:  # add profile
+                    prof.print_model_profile(profile_step=i)
+                    prof.end_profile()
 
-            # measure accuracy and record loss
-            # acc1, acc5 = accuracy(output, target, topk=(1, 5))
-            # losses.update(loss.item(), images.size(0))
-            # top1.update(acc1[0], images.size(0))
-            # top5.update(acc5[0], images.size(0))
+                # measure accuracy and record loss
+                # acc1, acc5 = accuracy(output, target, topk=(1, 5))
+                # losses.update(loss.item(), images.size(0))
+                # top1.update(acc1[0], images.size(0))
+                # top5.update(acc5[0], images.size(0))
 
-            # measure elapsed time
-            batch_time.update(time.time() - end)
-            end = time.time()
+                # measure elapsed time
+                batch_time.update(time.time() - end)
+                end = time.time()
 
-            if i % print_freq == 0:
-                progress.display(i)
-                print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
-                print("now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                if i % print_freq == 0:
+                    progress.display(i)
+                    print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
+                    print("now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
-            if i == prof_step + 30:
-                return 999
+                # if i == prof_step + 30:
+                #     return 999
+
+            gc.collect()
+        p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())
+                
+            
+        
 
 validate(dataloader, device_id)
