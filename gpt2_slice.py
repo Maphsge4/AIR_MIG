@@ -115,15 +115,16 @@ offload_model = OffloadModel( # 使用 OffloadModel 来包装模型
     checkpoint_activation=False,
     num_microbatches=1,
 )
-
-# model.hh = offload_model.model_slices  # 7.29 add
 model.hh = offload_model
 
-# 需要改改，怎样只让那几层先进GPU
-model = model.cuda()
-model.h = model.h.cpu()
-# model.hh = model.hh.cpu()
-# model.hh = model.hh.
+# # 需要改改，怎样只让那几层先进GPU
+# print("原来的")
+# model = model.cuda()
+# model.h = model.h.cpu()
+print("现在的")
+model.to_cuda()
+print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
+print("now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
 def prepare_dataloader(length, batch_size):
     vocab_size = 50257
@@ -249,9 +250,10 @@ def validate(data_loader, device_id, print_freq=10):
 
             if i % print_freq == 0:
                 progress.display(i)
-                print(torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
+                print("now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
-            if i == prof_step:
+            if i == prof_step + 30:
                 return 999
 
 validate(dataloader, device_id)

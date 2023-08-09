@@ -690,6 +690,12 @@ class GPT2Model(GPT2PreTrainedModel):
         # Initialize weights and apply final processing
         self.post_init()
 
+    def to_cuda(self):
+        self.wte = self.wte.cuda()
+        self.wpe = self.wpe.cuda()
+        self.drop = self.drop.cuda()
+        self.ln_f = self.ln_f.cuda()
+
     @add_start_docstrings(PARALLELIZE_DOCSTRING)
     def parallelize(self, device_map=None):
         # Check validity of device_map

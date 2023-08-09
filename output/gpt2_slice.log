@@ -1,754 +1,1876 @@
 => model params: 124439808
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-Test: [   0/1000]	Time  1.522 ( 1.522)
-292709376
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-Test: [  10/1000]	Time  1.268 ( 1.287)
-292709376
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-Test: [  20/1000]	Time  1.260 ( 1.274)
-292709376
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
-0
-12582912
-1
-12582912
-2
-12582912
-3
-12582912
-4
-12582912
-5
-12582912
-6
-12582912
-7
-12582912
-8
-12582912
-9
-12582912
-10
-12582912
-11
-12582912
+原来的
+max: 511148032
+now 158341120
+shard 0 load前： 260731904
+shard 0 load后： 290132480 
+
+shard 0 drop前： 374018560
+shard 0 drop后： 344617984
+shard 1 load前： 344617984
+shard 1 load后： 374018560 
+
+shard 1 drop前： 424350208
+shard 1 drop后： 394949632
+shard 2 load前： 394949632
+shard 2 load后： 424350208 
+
+shard 2 drop前： 424350208
+shard 2 drop后： 394949632
+shard 3 load前： 394949632
+shard 3 load后： 424350208 
+
+shard 3 drop前： 424350208
+shard 3 drop后： 394949632
+shard 4 load前： 394949632
+shard 4 load后： 424350208 
+
+shard 4 drop前： 424350208
+shard 4 drop后： 394949632
+shard 5 load前： 394949632
+shard 5 load后： 424350208 
+
+shard 5 drop前： 424350208
+shard 5 drop后： 394949632
+shard 6 load前： 394949632
+shard 6 load后： 424350208 
+
+shard 6 drop前： 424350208
+shard 6 drop后： 394949632
+shard 7 load前： 394949632
+shard 7 load后： 424350208 
+
+shard 7 drop前： 424350208
+shard 7 drop后： 394949632
+shard 8 load前： 394949632
+shard 8 load后： 424350208 
+
+shard 8 drop前： 424350208
+shard 8 drop后： 394949632
+shard 9 load前： 394949632
+shard 9 load后： 424350208 
+
+shard 9 drop前： 424350208
+shard 9 drop后： 394949632
+shard 10 load前： 394949632
+shard 10 load后： 424350208 
+
+shard 10 drop前： 424350208
+shard 10 drop后： 394949632
+shard 11 load前： 394949632
+shard 11 load后： 424350208 
+
+shard 11 drop前： 424350208
+shard 11 drop后： 394949632
+Test: [   0/1000]	Time  0.588 ( 0.588)
+max: 1481314816
+now 242377728
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+Test: [  10/1000]	Time  0.240 ( 0.271)
+max: 1531646464
+now 242377728
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+Test: [  20/1000]	Time  0.240 ( 0.259)
+max: 1531646464
+now 242377728
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
 
 -------------------------- DeepSpeed Flops Profiler --------------------------
 Profile Summary at step 30:
@@ -764,35 +1886,35 @@ params of model = params per GPU * mp_size:                   124.44 M
 fwd MACs per GPU:                                             3092.38 GMACs
 fwd flops per GPU:                                            6190.25 G
 fwd flops of model = fwd flops per GPU * mp_size:             6190.25 G
-fwd latency:                                                  1.61 s  
-fwd FLOPS per GPU = fwd flops per GPU / fwd latency:          3.85 TFLOPS
+fwd latency:                                                  292.94 ms
+fwd FLOPS per GPU = fwd flops per GPU / fwd latency:          21.13 TFLOPS
 
 ----------------------------- Aggregated Profile per GPU -----------------------------
 Top 1 modules in terms of params, MACs or fwd latency at different model depths:
 depth 0:
     params      - {'GPT2Model': '124.44 M'}
     MACs        - {'GPT2Model': '3092.38 GMACs'}
-    fwd latency - {'GPT2Model': '1.61 s'}
+    fwd latency - {'GPT2Model': '292.94 ms'}
 depth 1:
     params      - {'ModuleList': '85.05 M'}
     MACs        - {'ModuleList': '1546.19 GMACs'}
-    fwd latency - {'OffloadModel': '1.59 s'}
+    fwd latency - {'OffloadModel': '291.3 ms'}
 depth 2:
     params      - {'GPT2Block': '85.05 M'}
     MACs        - {'GPT2Block': '1546.19 GMACs'}
-    fwd latency - {'Sequential': '853.15 ms'}
+    fwd latency - {'Sequential': '270.86 ms'}
 depth 3:
     params      - {'ModelShard': '85.05 M'}
     MACs        - {'ModelShard': '1546.19 GMACs'}
-    fwd latency - {'ModelShard': '853.15 ms'}
+    fwd latency - {'ModelShard': '270.86 ms'}
 depth 4:
     params      - {'GPT2Block': '85.05 M'}
     MACs        - {'GPT2Block': '1546.19 GMACs'}
-    fwd latency - {'GPT2Block': '823.4 ms'}
+    fwd latency - {'GPT2Block': '269.19 ms'}
 depth 5:
     params      - {'GPT2MLP': '56.67 M'}
     MACs        - {'GPT2MLP': '927.71 GMACs'}
-    fwd latency - {'GPT2MLP': '375.5 ms'}
+    fwd latency - {'GPT2MLP': '143.79 ms'}
 
 ------------------------------ Detailed Profile per GPU ------------------------------
 Each module profile is listed after its name in the following order: 
@@ -803,506 +1925,506 @@ Note: 1. A module can have torch.nn.module or torch.nn.functional to compute log
 3. The fwd latency listed in the top module's profile is directly captured at the module forward function in PyTorch, thus it's less than the fwd latency shown above which is captured in DeepSpeed.
 
 GPT2Model(
-  124.44 M, 100.00% Params, 3092.38 GMACs, 100.00% MACs, 1.61 s, 100.00% latency, 3.85 TFLOPS, 
-  (wte): Embedding(38.6 M, 31.02% Params, 0 MACs, 0.00% MACs, 178.18 us, 0.01% latency, 0.0 FLOPS, 50257, 768)
-  (wpe): Embedding(786.43 k, 0.63% Params, 0 MACs, 0.00% MACs, 14.34 us, 0.00% latency, 0.0 FLOPS, 1024, 768)
-  (drop): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+  124.44 M, 100.00% Params, 3092.38 GMACs, 100.00% MACs, 292.94 ms, 100.00% latency, 21.13 TFLOPS, 
+  (wte): Embedding(38.6 M, 31.02% Params, 0 MACs, 0.00% MACs, 239.62 us, 0.08% latency, 0.0 FLOPS, 50257, 768)
+  (wpe): Embedding(786.43 k, 0.63% Params, 0 MACs, 0.00% MACs, 171.01 us, 0.06% latency, 0.0 FLOPS, 1024, 768)
+  (drop): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 18.43 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
   (h): ModuleList(
     (0): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.5 ms, 4.20% latency, 3.82 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 104.45 us, 0.01% latency, 602.35 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.18 ms, 7.57% latency, 11.63 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 140.29 us, 0.05% latency, 448.47 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.94 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.66 ms, 0.35% latency, 10.25 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.22 TFLOPS, )
-        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.49 ms, 3.24% latency, 10.88 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.38 ms, 1.15% latency, 17.16 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.96 TFLOPS, )
+        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.33 ms, 1.95% latency, 4.94 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.4 ms, 0.58% latency, 8.23 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.54 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.91 ms, 4.07% latency, 12.98 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.34 ms, 1.48% latency, 17.8 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.17 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (1): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 68.86 ms, 4.29% latency, 3.75 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.63 ms, 0.10% latency, 38.68 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.34 ms, 7.63% latency, 11.55 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 140.29 us, 0.05% latency, 448.47 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.27 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.43 ms, 3.22% latency, 10.94 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.26 ms, 1.11% latency, 17.76 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.98 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.24 ms, 1.94% latency, 4.95 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.31 ms, 0.58% latency, 8.3 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.53 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.93 ms, 4.07% latency, 12.96 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.79 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.51 ms, 1.54% latency, 17.12 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (2): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.25 ms, 4.31% latency, 3.72 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.96 ms, 0.12% latency, 32.12 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.33 ms, 7.62% latency, 11.55 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 155.65 us, 0.05% latency, 404.21 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.29 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.42 ms, 3.22% latency, 10.95 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.27 ms, 1.12% latency, 17.72 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.96 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 96.26 us, 0.01% latency, 653.62 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.3 ms, 1.95% latency, 4.94 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.34 ms, 0.58% latency, 8.28 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.56 ms, 0.35% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.92 ms, 4.07% latency, 12.97 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.78 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.17 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (3): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.44 ms, 4.32% latency, 3.71 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 2.11 ms, 0.13% latency, 29.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.31 ms, 7.62% latency, 11.56 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 156.67 us, 0.05% latency, 401.57 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.65 ms, 0.35% latency, 10.27 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.42 ms, 3.22% latency, 10.95 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.22 ms, 1.10% latency, 18.03 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.91 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.34 ms, 1.95% latency, 4.93 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.39 ms, 0.58% latency, 8.23 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.55 ms, 0.35% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.91 ms, 4.07% latency, 12.98 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.78 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.49 ms, 1.53% latency, 17.22 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (4): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.4 ms, 4.32% latency, 3.72 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 2.1 ms, 0.13% latency, 30.0 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.42 ms, 7.65% latency, 11.51 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 182.27 us, 0.06% latency, 345.17 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.99 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.47 ms, 3.23% latency, 10.89 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.24 ms, 1.11% latency, 17.88 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.96 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.31 ms, 1.95% latency, 4.94 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.36 ms, 0.58% latency, 8.26 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.55 ms, 0.35% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.92 ms, 4.07% latency, 12.97 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.78 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.17 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (5): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 68.79 ms, 4.28% latency, 3.75 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.51 ms, 0.09% latency, 41.71 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.3 ms, 7.61% latency, 11.56 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 140.29 us, 0.05% latency, 448.47 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.39 ms, 3.21% latency, 10.98 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.21 ms, 1.09% latency, 18.08 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.3 ms, 1.95% latency, 4.94 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.36 ms, 0.58% latency, 8.26 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.53 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.93 ms, 4.07% latency, 12.96 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.36 ms, 1.49% latency, 17.72 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.48 ms, 1.53% latency, 17.24 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (6): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.04 ms, 4.30% latency, 3.74 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.77 ms, 0.11% latency, 35.53 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.63 ms, 7.73% latency, 11.4 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 185.34 us, 0.06% latency, 339.45 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.4 ms, 3.21% latency, 10.98 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.28 ms, 1.12% latency, 17.66 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.28 ms, 1.95% latency, 4.94 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.37 ms, 0.58% latency, 8.25 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.51 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.22 ms, 4.17% latency, 12.65 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.36 ms, 1.49% latency, 17.73 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.59 ms, 1.57% latency, 16.83 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.7 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 35.84 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (7): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.56 ms, 4.21% latency, 3.82 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 332.32 us, 0.02% latency, 189.32 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.37 ms, 7.64% latency, 11.53 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 146.43 us, 0.05% latency, 429.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.65 ms, 0.35% latency, 10.27 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
-        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.51 ms, 3.25% latency, 10.85 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.32 ms, 1.14% latency, 17.44 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
+        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 93.18 us, 0.01% latency, 675.16 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.25 ms, 1.94% latency, 4.95 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.32 ms, 0.58% latency, 8.29 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.52 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.91 ms, 4.06% latency, 12.99 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.34 ms, 1.48% latency, 17.79 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.49 ms, 1.53% latency, 17.21 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.68 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (8): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.41 ms, 4.32% latency, 3.72 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 2.16 ms, 0.13% latency, 29.07 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.63 ms, 7.72% latency, 11.4 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 161.79 us, 0.06% latency, 388.86 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
-        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.52 ms, 3.25% latency, 10.83 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.31 ms, 1.13% latency, 17.51 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.98 TFLOPS, )
+        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.26 ms, 1.95% latency, 4.95 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.34 ms, 0.58% latency, 8.28 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.53 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.12 ms, 4.14% latency, 12.76 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.37 ms, 1.49% latency, 17.71 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.53 ms, 1.55% latency, 17.05 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.7 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 38.91 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (9): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 68.64 ms, 4.27% latency, 3.76 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.35 ms, 0.08% latency, 46.72 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.65 ms, 7.73% latency, 11.39 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 138.24 us, 0.05% latency, 455.11 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.54 ms, 3.26% latency, 10.81 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.28 ms, 1.12% latency, 17.68 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.92 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.3 ms, 1.95% latency, 4.94 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.4 ms, 0.59% latency, 8.23 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.51 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.05 ms, 4.11% latency, 12.83 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.37 ms, 1.49% latency, 17.68 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.53 ms, 1.55% latency, 17.06 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 38.91 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (10): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.78 ms, 4.22% latency, 3.81 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 441.95 us, 0.03% latency, 142.36 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.57 ms, 7.70% latency, 11.43 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 155.65 us, 0.05% latency, 404.21 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.91 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.27 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
-        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.53 ms, 3.25% latency, 10.83 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.23 ms, 1.10% latency, 17.95 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.07 ms, 0.37% latency, 17.99 TFLOPS, )
+        (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.34 ms, 1.95% latency, 4.93 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.35 ms, 0.58% latency, 8.27 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.59 ms, 0.35% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.0 ms, 4.10% latency, 12.88 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.38 ms, 1.49% latency, 17.66 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.18 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 35.84 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
     (11): GPT2Block(
-      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.73 ms, 4.22% latency, 3.81 TFLOPS, 
-      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 492.35 us, 0.03% latency, 127.78 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.47 ms, 7.67% latency, 11.48 TFLOPS, 
+      (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 141.31 us, 0.05% latency, 445.22 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (attn): GPT2Attention(
-        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.98 TFLOPS, 
-        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.27 TFLOPS, )
-        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+        2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.58 ms, 3.27% latency, 10.77 TFLOPS, 
+        (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.23 ms, 1.10% latency, 17.96 TFLOPS, )
+        (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
         (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 39.94 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
-      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+      (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
       (mlp): GPT2MLP(
-        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.25 ms, 1.95% latency, 4.95 TFLOPS, 
-        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.32 ms, 0.58% latency, 8.3 TFLOPS, )
-        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.54 ms, 0.34% latency, 0.0 FLOPS, )
-        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+        4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.98 ms, 4.09% latency, 12.91 TFLOPS, 
+        (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.37 ms, 1.49% latency, 17.71 TFLOPS, )
+        (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.52 ms, 1.54% latency, 17.12 TFLOPS, )
+        (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.7 ms, 0.92% latency, 0.0 FLOPS, )
+        (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
       )
     )
   )
-  (ln_f): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.8 ms, 0.11% latency, 35.03 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+  (ln_f): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 136.19 us, 0.05% latency, 461.95 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
   (hh): OffloadModel(
-    85.05 M, 68.35% Params, 1546.19 GMACs, 50.00% MACs, 1.59 s, 99.16% latency, 1.94 TFLOPS, 
+    85.05 M, 68.35% Params, 1546.19 GMACs, 50.00% MACs, 291.3 ms, 99.44% latency, 10.63 TFLOPS, 
     (_model): Sequential(
-      85.05 M, 68.35% Params, 1546.19 GMACs, 50.00% MACs, 853.15 ms, 53.11% latency, 3.63 TFLOPS, 
+      85.05 M, 68.35% Params, 1546.19 GMACs, 50.00% MACs, 270.86 ms, 92.46% latency, 11.43 TFLOPS, 
       (0): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.94 ms, 4.35% latency, 3.69 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.29 ms, 7.61% latency, 11.57 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.5 ms, 4.20% latency, 3.82 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 104.45 us, 0.01% latency, 602.35 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.18 ms, 7.57% latency, 11.63 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 140.29 us, 0.05% latency, 448.47 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.94 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.66 ms, 0.35% latency, 10.25 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.22 TFLOPS, )
-            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.49 ms, 3.24% latency, 10.88 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.38 ms, 1.15% latency, 17.16 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.96 TFLOPS, )
+            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.33 ms, 1.95% latency, 4.94 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.4 ms, 0.58% latency, 8.23 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.54 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.91 ms, 4.07% latency, 12.98 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.34 ms, 1.48% latency, 17.8 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.17 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (1): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.34 ms, 4.44% latency, 3.62 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.43 ms, 7.66% latency, 11.5 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 68.86 ms, 4.29% latency, 3.75 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.63 ms, 0.10% latency, 38.68 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.34 ms, 7.63% latency, 11.55 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 140.29 us, 0.05% latency, 448.47 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.27 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.43 ms, 3.22% latency, 10.94 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.26 ms, 1.11% latency, 17.76 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.98 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.24 ms, 1.94% latency, 4.95 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.31 ms, 0.58% latency, 8.3 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.53 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.93 ms, 4.07% latency, 12.96 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.79 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.51 ms, 1.54% latency, 17.12 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (2): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.73 ms, 4.46% latency, 3.6 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.44 ms, 7.66% latency, 11.49 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.25 ms, 4.31% latency, 3.72 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.96 ms, 0.12% latency, 32.12 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.33 ms, 7.62% latency, 11.55 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 155.65 us, 0.05% latency, 404.21 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.29 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.42 ms, 3.22% latency, 10.95 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.27 ms, 1.12% latency, 17.72 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.96 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 96.26 us, 0.01% latency, 653.62 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.3 ms, 1.95% latency, 4.94 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.34 ms, 0.58% latency, 8.28 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.56 ms, 0.35% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.92 ms, 4.07% latency, 12.97 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.78 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.17 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (3): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.92 ms, 4.48% latency, 3.59 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.5 ms, 7.68% latency, 11.46 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.44 ms, 4.32% latency, 3.71 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 2.11 ms, 0.13% latency, 29.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.31 ms, 7.62% latency, 11.56 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 156.67 us, 0.05% latency, 401.57 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.65 ms, 0.35% latency, 10.27 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.42 ms, 3.22% latency, 10.95 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.22 ms, 1.10% latency, 18.03 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.91 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.34 ms, 1.95% latency, 4.93 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.39 ms, 0.58% latency, 8.23 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.55 ms, 0.35% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.91 ms, 4.07% latency, 12.98 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.78 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.49 ms, 1.53% latency, 17.22 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (4): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.88 ms, 4.47% latency, 3.59 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.57 ms, 7.70% latency, 11.43 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.4 ms, 4.32% latency, 3.72 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 2.1 ms, 0.13% latency, 30.0 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.42 ms, 7.65% latency, 11.51 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 182.27 us, 0.06% latency, 345.17 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.99 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.47 ms, 3.23% latency, 10.89 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.24 ms, 1.11% latency, 17.88 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.96 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.31 ms, 1.95% latency, 4.94 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.36 ms, 0.58% latency, 8.26 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.55 ms, 0.35% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.92 ms, 4.07% latency, 12.97 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.35 ms, 1.48% latency, 17.78 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.17 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (5): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.28 ms, 4.44% latency, 3.62 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.46 ms, 7.67% latency, 11.48 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 68.79 ms, 4.28% latency, 3.75 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.51 ms, 0.09% latency, 41.71 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.3 ms, 7.61% latency, 11.56 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 140.29 us, 0.05% latency, 448.47 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.39 ms, 3.21% latency, 10.98 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.21 ms, 1.09% latency, 18.08 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.3 ms, 1.95% latency, 4.94 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.36 ms, 0.58% latency, 8.26 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.53 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.93 ms, 4.07% latency, 12.96 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.36 ms, 1.49% latency, 17.72 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.48 ms, 1.53% latency, 17.24 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (6): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.52 ms, 4.45% latency, 3.61 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.74 ms, 7.76% latency, 11.34 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.04 ms, 4.30% latency, 3.74 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.77 ms, 0.11% latency, 35.53 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.63 ms, 7.73% latency, 11.4 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 185.34 us, 0.06% latency, 339.45 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.4 ms, 3.21% latency, 10.98 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.28 ms, 1.12% latency, 17.66 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 30.72 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.28 ms, 1.95% latency, 4.94 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.37 ms, 0.58% latency, 8.25 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.51 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.22 ms, 4.17% latency, 12.65 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.36 ms, 1.49% latency, 17.73 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.59 ms, 1.57% latency, 16.83 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.7 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 35.84 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (7): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 70.05 ms, 4.36% latency, 3.68 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.52 ms, 7.69% latency, 11.45 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.56 ms, 4.21% latency, 3.82 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 332.32 us, 0.02% latency, 189.32 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.37 ms, 7.64% latency, 11.53 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 146.43 us, 0.05% latency, 429.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.65 ms, 0.35% latency, 10.27 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
-            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.51 ms, 3.25% latency, 10.85 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.32 ms, 1.14% latency, 17.44 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
+            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 93.18 us, 0.01% latency, 675.16 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 90.11 us, 0.03% latency, 698.18 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.25 ms, 1.94% latency, 4.95 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.32 ms, 0.58% latency, 8.29 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.52 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.91 ms, 4.06% latency, 12.99 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.34 ms, 1.48% latency, 17.79 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.49 ms, 1.53% latency, 17.21 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.68 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (8): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.89 ms, 4.48% latency, 3.59 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.81 ms, 7.79% latency, 11.31 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 69.41 ms, 4.32% latency, 3.72 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 2.16 ms, 0.13% latency, 29.07 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.63 ms, 7.72% latency, 11.4 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 161.79 us, 0.06% latency, 388.86 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
-            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.52 ms, 3.25% latency, 10.83 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.31 ms, 1.13% latency, 17.51 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.98 TFLOPS, )
+            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.26 ms, 1.95% latency, 4.95 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.34 ms, 0.58% latency, 8.28 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.53 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.12 ms, 4.14% latency, 12.76 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.37 ms, 1.49% latency, 17.71 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.53 ms, 1.55% latency, 17.05 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.7 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 38.91 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (9): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 71.12 ms, 4.43% latency, 3.63 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.74 ms, 7.76% latency, 11.34 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 68.64 ms, 4.27% latency, 3.76 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 1.35 ms, 0.08% latency, 46.72 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.65 ms, 7.73% latency, 11.39 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 138.24 us, 0.05% latency, 455.11 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.9 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.28 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.54 ms, 3.26% latency, 10.81 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.28 ms, 1.12% latency, 17.68 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.92 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.3 ms, 1.95% latency, 4.94 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.4 ms, 0.59% latency, 8.23 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.51 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.05 ms, 4.11% latency, 12.83 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.37 ms, 1.49% latency, 17.68 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.53 ms, 1.55% latency, 17.06 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 38.91 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (10): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 70.26 ms, 4.37% latency, 3.67 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.73 ms, 7.76% latency, 11.34 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.78 ms, 4.22% latency, 3.81 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 441.95 us, 0.03% latency, 142.36 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.57 ms, 7.70% latency, 11.43 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 155.65 us, 0.05% latency, 404.21 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.91 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.27 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.71 ms, 0.23% latency, 5.21 TFLOPS, )
-            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.53 ms, 3.25% latency, 10.83 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.23 ms, 1.10% latency, 17.95 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.07 ms, 0.37% latency, 17.99 TFLOPS, )
+            (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 32.77 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 95.23 us, 0.01% latency, 660.65 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 92.16 us, 0.03% latency, 682.67 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.34 ms, 1.95% latency, 4.93 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.65 ms, 0.41% latency, 11.62 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.35 ms, 0.58% latency, 8.27 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.59 ms, 0.35% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 12.0 ms, 4.10% latency, 12.88 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.38 ms, 1.49% latency, 17.66 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.5 ms, 1.54% latency, 17.18 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.69 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 35.84 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
       (11): ModelShard(
-        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 70.21 ms, 4.37% latency, 3.67 TFLOPS, 
+        7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.63 ms, 7.73% latency, 11.4 TFLOPS, 
         (model_shard): GPT2Block(
-          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 67.73 ms, 4.22% latency, 3.81 TFLOPS, 
-          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 492.35 us, 0.03% latency, 127.78 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          7.09 M, 5.70% Params, 128.85 GMACs, 4.17% MACs, 22.47 ms, 7.67% latency, 11.48 TFLOPS, 
+          (ln_1): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 141.31 us, 0.05% latency, 445.22 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (attn): GPT2Attention(
-            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 25.89 ms, 1.61% latency, 3.98 TFLOPS, 
-            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 5.64 ms, 0.35% latency, 10.27 TFLOPS, )
-            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 3.7 ms, 0.23% latency, 5.22 TFLOPS, )
+            2.36 M, 1.90% Params, 51.54 GMACs, 1.67% MACs, 9.58 ms, 3.27% latency, 10.77 TFLOPS, 
+            (c_attn): Conv1D(1.77 M, 1.42% Params, 28.99 GMACs, 0.94% MACs, 3.23 ms, 1.10% latency, 17.96 TFLOPS, )
+            (c_proj): Conv1D(590.59 k, 0.47% Params, 9.66 GMACs, 0.31% MACs, 1.08 ms, 0.37% latency, 17.94 TFLOPS, )
             (attn_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
-            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 3.07 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            (resid_dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 39.94 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
-          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 94.21 us, 0.01% latency, 667.83 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
+          (ln_2): LayerNorm(1.54 k, 0.00% Params, 0 MACs, 0.00% MACs, 91.14 us, 0.03% latency, 690.34 GFLOPS, (768,), eps=1e-05, elementwise_affine=True)
           (mlp): GPT2MLP(
-            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 31.25 ms, 1.95% latency, 4.95 TFLOPS, 
-            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 6.66 ms, 0.41% latency, 11.61 TFLOPS, )
-            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 9.32 ms, 0.58% latency, 8.3 TFLOPS, )
-            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 5.54 ms, 0.34% latency, 0.0 FLOPS, )
-            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 4.1 us, 0.00% latency, 0.0 FLOPS, p=0.1, inplace=False)
+            4.72 M, 3.79% Params, 77.31 GMACs, 2.50% MACs, 11.98 ms, 4.09% latency, 12.91 TFLOPS, 
+            (c_fc): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.37 ms, 1.49% latency, 17.71 TFLOPS, )
+            (c_proj): Conv1D(2.36 M, 1.90% Params, 38.65 GMACs, 1.25% MACs, 4.52 ms, 1.54% latency, 17.12 TFLOPS, )
+            (act): NewGELUActivation(0, 0.00% Params, 0 MACs, 0.00% MACs, 2.7 ms, 0.92% latency, 0.0 FLOPS, )
+            (dropout): Dropout(0, 0.00% Params, 0 MACs, 0.00% MACs, 31.74 us, 0.01% latency, 0.0 FLOPS, p=0.1, inplace=False)
           )
         )
       )
@@ -1310,5 +2432,1815 @@ GPT2Model(
   )
 )
 ------------------------------------------------------------------------------
-Test: [  30/1000]	Time  1.646 ( 1.281)
-292709376
+Test: [  30/1000]	Time  0.332 ( 0.255)
+max: 1531646464
+now 242377728
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+Test: [  40/1000]	Time  0.243 ( 0.253)
+max: 1531646464
+now 242377728
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+Test: [  50/1000]	Time  0.243 ( 0.252)
+max: 1531646464
+now 242377728
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+shard 0 load前： 344617984
+shard 0 load后： 374018560 
+
+shard 0 drop前： 424350208
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+shard 1 load后： 424350208 
+
+shard 1 drop前： 474681856
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+shard 2 load后： 474681856 
+
+shard 2 drop前： 474681856
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+shard 3 load后： 474681856 
+
+shard 3 drop前： 474681856
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+shard 4 load后： 474681856 
+
+shard 4 drop前： 474681856
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+shard 5 load后： 474681856 
+
+shard 5 drop前： 474681856
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+shard 6 load后： 474681856 
+
+shard 6 drop前： 474681856
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+shard 7 load后： 474681856 
+
+shard 7 drop前： 474681856
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+shard 8 load后： 474681856 
+
+shard 8 drop前： 474681856
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+shard 9 load后： 474681856 
+
+shard 9 drop前： 474681856
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+shard 10 load后： 474681856 
+
+shard 10 drop前： 474681856
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+shard 11 load后： 474681856 
+
+shard 11 drop前： 474681856
+shard 11 drop后： 445281280
+Test: [  60/1000]	Time  0.243 ( 0.251)
+max: 1531646464
+now 242377728

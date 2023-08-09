@@ -35,6 +35,14 @@
             "program": "gpt2_original.py",
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "test",
+            "type": "python",
+            "request": "launch",
+            "program": "memory_plot_test.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
         }
     ]
 }

@@ -100,10 +100,11 @@ class ModelShard(nn.Module):
         self.offload_device = offload_device
 
         self.model_shard.to(offload_device)
-        self._cpu_to_gpu_stream = torch.cuda.Stream(device=self.device)
-        self._gpu_to_cpu_stream = torch.cuda.Stream(device=self.device)
+        self._cpu_to_gpu_stream = torch.cuda.Stream(device=self.device)  # 两个stream流
+        self._gpu_to_cpu_stream = torch.cuda.Stream(device=self.device)  # 两个stream流
 
     def forward(self, *inputs, **_):  # type: ignore  # maphsge4 add args
+        print(f"model shard forward max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
         if isinstance(inputs, tuple):
             return self.model_shard(
                 *inputs,
@@ -346,7 +347,9 @@ class ShardSyncLayer(torch.autograd.Function):
         if drop_index >= 0:
             # Move shard from device to offload device.
             nvtx.range_push(f"forward_drop{drop_index}")
+            print(f"shard {drop_index} drop前：", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
             model_slices[drop_index].forward_drop()
+            print(f"shard {drop_index} drop后：", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
             nvtx.range_pop()
         # else:  # add select n
         #     print(model_instance.device_list)  # debug
@@ -354,7 +357,10 @@ class ShardSyncLayer(torch.autograd.Function):
         if load_index < max_slices:
             # Load shard from offload device to device.
             nvtx.range_push(f"forward_load{load_index}")
+            print(f"shard {load_index} load前：", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
             model_slices[load_index].forward_load()
+            print(f"shard {load_index} load后：", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+            print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")), "\n")  # 显存量
             nvtx.range_pop()
 
         ctx.index = index
@@ -486,7 +492,9 @@ class OffloadModel(nn.Module):
         # arg type.
         # print(model, type(model))  # debug
         if type(model) == list:
-            # print("yes!!")  # debug
+            for m in model:
+                for p in m.parameters():
+                    p.data = p.data.pin_memory()
             # This is already sharded using the auto shard functinality.
             for i, m in enumerate(model):
                 self.model_slices.append(
@@ -559,7 +567,11 @@ class OffloadModel(nn.Module):
                 # inputs = self._activations[index]
                 inputs = last_inputs
                 nvtx.range_push(f"shard {index} forward")
+                print(f"index {index} on-time:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                print(f"index {index} max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
                 inputs = self.model_slices[index](*inputs, **_)[0]  # 实际上是调用slices的forward
+                print(f"index {index} on-time:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                print(f"index {index} max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
                 nvtx.range_pop()
             # Call the custom autograd hooks (discard/load slices FW and BW)
             inputs = ShardSyncLayer.apply(inputs, index, self.model_slices, self)  # 手动实现

@@ -229,9 +229,10 @@ def validate(data_loader, device_id, print_freq=10):
 
             if i % print_freq == 0:
                 progress.display(i)
-                print(torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
+                print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
-            if i == prof_step:
+            if i == prof_step + 30:
                 return 999
 
 validate(dataloader, device_id)
