@@ -162,7 +162,7 @@ def prepare_dataloader(length, batch_size):
 
     return loader
 
-dataloader = prepare_dataloader(3 * batch_size, batch_size)
+dataloader = prepare_dataloader(2 * batch_size, batch_size)
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
@@ -259,8 +259,9 @@ def validate(data_loader, device_id, print_freq=10):
 
                 if i % print_freq == 0:
                     progress.display(i)
-                    print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
-                    print("now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                
+                print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
+                print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
                 # if i == prof_step + 30:
                 #     return 999
@@ -268,7 +269,4 @@ def validate(data_loader, device_id, print_freq=10):
             gc.collect()
         p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())
                 
-            
-        
-
 validate(dataloader, device_id)

@@ -36,6 +36,10 @@ from transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARC
 
 from lib.profiler import FlopsProfiler
 
+import datetime
+import gc
+import pathlib
+
 BERT_CONFIGS = {
     "bert-base-uncased": {
         "architectures": [
@@ -407,7 +411,7 @@ def initialize_data_loader(
     #         num_workers=num_data_workers,
     #         pin_memory=True,
     #     )
-    val_dataset = RandomDataset(batch_size * 1000, batch_size)
+    val_dataset = RandomDataset(batch_size * 6, batch_size)
     val_loader = DataLoader(
         val_dataset,
         batch_size=batch_size,
@@ -598,6 +602,10 @@ def validate(
         device_id: int,
         print_freq: int,
 ):
+    trace_dir = pathlib.Path(__file__).parent.joinpath("traces")
+    now = datetime.datetime.now().strftime("%Y_%m_%d:%H.%M.%S")
+    trace_dir.mkdir(exist_ok=True)
+
     batch_time = AverageMeter("Time", ":6.3f")
     losses = AverageMeter("Loss", ":.4e")
     top1 = AverageMeter("Acc@1", ":6.2f")
@@ -611,45 +619,55 @@ def validate(
 
     prof = FlopsProfiler(model)  # add profiler
     # prof_step = len(val_loader) // 3  # 整除3，所以会在33%的时候输出profile！
-    prof_step = 30  # debug
+    prof_step = 3  # debug
 
     with torch.no_grad():
         end = time.time()
-        for i, (images, target) in enumerate(val_loader):
+        gc.collect()
+        with torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True) as p:
+            for i, (images, target) in enumerate(val_loader):
 
-            if i == prof_step:  # add profile
-                prof.start_profile()
+                if i == prof_step:  # add profile
+                    prof.start_profile()
 
-            if device_id is not None:
-                images = images.cuda(device_id, non_blocking=True)
-            target = target.cuda(device_id, non_blocking=True)
+                if device_id is not None:
+                    images = images.cuda(device_id, non_blocking=True)
+                target = target.cuda(device_id, non_blocking=True)
 
-            # compute output
-            output = model(images)
-            # print(model)
-            # loss = criterion(output[0], target)
-            # print("loss: ", loss)  # debug
+                # compute output
+                output = model(images)
+                # print(model)
+                # loss = criterion(output[0], target)
+                # print("loss: ", loss)  # debug
 
-            if i == prof_step:  # add profile
-                prof.print_model_profile(profile_step=i)
-                prof.end_profile()
+                if i == prof_step:  # add profile
+                    prof.print_model_profile(profile_step=i)
+                    prof.end_profile()
 
-            # measure accuracy and record loss
-            # acc1, acc5 = accuracy(output, target, topk=(1, 5))
-            # losses.update(loss.item(), images.size(0))
-            # top1.update(acc1[0], images.size(0))
-            # top5.update(acc5[0], images.size(0))
+                # measure accuracy and record loss
+                # acc1, acc5 = accuracy(output, target, topk=(1, 5))
+                # losses.update(loss.item(), images.size(0))
+                # top1.update(acc1[0], images.size(0))
+                # top5.update(acc5[0], images.size(0))
 
-            # measure elapsed time
-            batch_time.update(time.time() - end)
-            end = time.time()
+                # measure elapsed time
+                batch_time.update(time.time() - end)
+                end = time.time()
 
-            if i % print_freq == 0:
-                progress.display(i)
-                # print(torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                if i % print_freq == 0:
+                    progress.display(i)
+                    
+                print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
+                print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
-            if i == prof_step:
-                return 999
+                # if i == prof_step:
+                #     return 999
+
+                if i == 2:
+                    gc.collect()
+                
+        p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())
+
 
         # TODO: this should also be done with the ProgressMeter
         # print(

@@ -387,7 +387,9 @@ class GPT2Block(nn.Module):
         output_attentions: Optional[bool] = False,
     ) -> Union[Tuple[torch.Tensor], Optional[Tuple[torch.Tensor, Tuple[torch.FloatTensor, ...]]]]:
         residual = hidden_states
+        print("start on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         hidden_states = self.ln_1(hidden_states)
+        print("ln_1 end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         attn_outputs = self.attn(
             hidden_states,
             layer_past=layer_past,
@@ -396,6 +398,7 @@ class GPT2Block(nn.Module):
             use_cache=use_cache,
             output_attentions=output_attentions,
         )
+        print("attn end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         attn_output = attn_outputs[0]  # output_attn: a, present, (attentions)
         outputs = attn_outputs[1:]
         # residual connection
@@ -410,6 +413,7 @@ class GPT2Block(nn.Module):
                 )
             residual = hidden_states
             hidden_states = self.ln_cross_attn(hidden_states)
+            print("ln_cross_attn end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
             cross_attn_outputs = self.crossattention(
                 hidden_states,
                 attention_mask=attention_mask,
@@ -418,6 +422,7 @@ class GPT2Block(nn.Module):
                 encoder_attention_mask=encoder_attention_mask,
                 output_attentions=output_attentions,
             )
+            print("crossattention end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
             attn_output = cross_attn_outputs[0]
             # residual connection
             hidden_states = residual + attn_output
@@ -425,7 +430,9 @@ class GPT2Block(nn.Module):
 
         residual = hidden_states
         hidden_states = self.ln_2(hidden_states)
+        print("ln_2 end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         feed_forward_hidden_states = self.mlp(hidden_states)
+        print("mlp end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         # residual connection
         hidden_states = residual + feed_forward_hidden_states
 

@@ -896,6 +896,10 @@ class BertModel(BertPreTrainedModel):
 
         # Initialize weights and apply final processing
         self.post_init()
+    
+    def to_cuda(self):
+        self.embeddings = self.embeddings.cuda()
+        # self.pooler = self.pooler.cuda()
 
     def get_input_embeddings(self):
         return self.embeddings.word_embeddings
@@ -1013,6 +1017,7 @@ class BertModel(BertPreTrainedModel):
         # and head_mask is converted to shape [num_hidden_layers x batch x num_heads x seq_length x seq_length]
         head_mask = self.get_head_mask(head_mask, self.config.num_hidden_layers)
 
+        print("start on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         embedding_output = self.embeddings(
             input_ids=input_ids,
             position_ids=position_ids,
@@ -1021,6 +1026,7 @@ class BertModel(BertPreTrainedModel):
             past_key_values_length=past_key_values_length,
         )
         # 要改！
+        print("embeddings end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         encoder_outputs = self.encoder(
             embedding_output,
             attention_mask=extended_attention_mask,
@@ -1033,8 +1039,10 @@ class BertModel(BertPreTrainedModel):
             output_hidden_states=output_hidden_states,
             return_dict=return_dict,
         )
+        print("encoder end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         sequence_output = encoder_outputs[0]
         pooled_output = self.pooler(sequence_output) if self.pooler is not None else None
+        print("pooler end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
         if not return_dict:
             return (sequence_output, pooled_output) + encoder_outputs[1:]
@@ -1362,6 +1370,7 @@ class BertForMaskedLM(BertPreTrainedModel):
 
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
 
+        print("masked start on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         outputs = self.bert(
             input_ids,
             attention_mask=attention_mask,
@@ -1375,9 +1384,11 @@ class BertForMaskedLM(BertPreTrainedModel):
             output_hidden_states=output_hidden_states,
             return_dict=return_dict,
         )
+        print("bert end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
         sequence_output = outputs[0]
         prediction_scores = self.cls(sequence_output)
+        print("cls end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
         masked_lm_loss = None
         if labels is not None:

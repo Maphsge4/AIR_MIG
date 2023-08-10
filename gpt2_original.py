@@ -6,6 +6,9 @@
 
 from transformers import GPT2Tokenizer, GPT2Config, GPT2Model
 import torch
+import datetime
+import gc
+import pathlib
 import torch.nn as nn
 import os 
 from lib.profiler import FlopsProfiler
@@ -138,7 +141,7 @@ def prepare_dataloader(length, batch_size):
 
     return loader
 
-dataloader = prepare_dataloader(1000 * batch_size, batch_size)
+dataloader = prepare_dataloader(2 * batch_size, batch_size)
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
@@ -181,7 +184,9 @@ class ProgressMeter(object):
         return "[" + fmt + "/" + fmt.format(num_batches) + "]"
 
 def validate(data_loader, device_id, print_freq=10):
-    # print("yes!!!")
+    trace_dir = pathlib.Path(__file__).parent.joinpath("traces")
+    now = datetime.datetime.now().strftime("%Y_%m_%d:%H.%M.%S")
+    trace_dir.mkdir(exist_ok=True)
     batch_time = AverageMeter("Time", ":6.3f")
     losses = AverageMeter("Loss", ":.4e")
     top1 = AverageMeter("Acc@1", ":6.2f")
@@ -200,39 +205,46 @@ def validate(data_loader, device_id, print_freq=10):
 
     with torch.no_grad():
         end = time.time()
-        for i, (images, target) in enumerate(data_loader):
-            if i == prof_step:  # add profile
-                prof.start_profile()
+        gc.collect()
+        with torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True) as p:
+            for i, (images, target) in enumerate(data_loader):
+                if i == prof_step:  # add profile
+                    prof.start_profile()
 
-            if device_id is not None:
-                images = images.cuda(device_id, non_blocking=True)
-            target = target.cuda(device_id, non_blocking=True)
+                if device_id is not None:
+                    images = images.cuda(device_id, non_blocking=True)
+                target = target.cuda(device_id, non_blocking=True)
 
-            # compute output
-            output = model(images)
-            output = output.last_hidden_state
-            # print(output)  # debug
+                # compute output
+                output = model(images)
+                output = output.last_hidden_state
+                # print(output)  # debug
 
-            if i == prof_step:  # add profile
-                prof.print_model_profile(profile_step=i)
-                prof.end_profile()
+                if i == prof_step:  # add profile
+                    prof.print_model_profile(profile_step=i)
+                    prof.end_profile()
 
-            # measure accuracy and record loss
-            # acc1, acc5 = accuracy(output, target, topk=(1, 5))
-            # losses.update(loss.item(), images.size(0))
-            # top1.update(acc1[0], images.size(0))
-            # top5.update(acc5[0], images.size(0))
+                # measure accuracy and record loss
+                # acc1, acc5 = accuracy(output, target, topk=(1, 5))
+                # losses.update(loss.item(), images.size(0))
+                # top1.update(acc1[0], images.size(0))
+                # top5.update(acc5[0], images.size(0))
 
-            # measure elapsed time
-            batch_time.update(time.time() - end)
-            end = time.time()
+                # measure elapsed time
+                batch_time.update(time.time() - end)
+                end = time.time()
 
-            if i % print_freq == 0:
-                progress.display(i)
+                if i % print_freq == 0:
+                    progress.display(i)
+                    
                 print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
                 print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
-            if i == prof_step + 30:
-                return 999
+                # if i == prof_step + 30:
+                #     return 999
+
+            gc.collect()
+        p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())
+
 
 validate(dataloader, device_id)

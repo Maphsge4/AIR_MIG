@@ -1,0 +1,126 @@
+=> model params: 124439808
+start on-time 614063104
+ln_1 end on-time 664394752
+attn end on-time 899275776
+ln_2 end on-time 949607424
+mlp end on-time 999939072
+start on-time 798612480
+ln_1 end on-time 848944128
+attn end on-time 1050270720
+ln_2 end on-time 1100602368
+mlp end on-time 1150934016
+start on-time 949607424
+ln_1 end on-time 999939072
+attn end on-time 1201265664
+ln_2 end on-time 1251597312
+mlp end on-time 1301928960
+start on-time 1100602368
+ln_1 end on-time 1150934016
+attn end on-time 1352260608
+ln_2 end on-time 1402592256
+mlp end on-time 1452923904
+start on-time 1251597312
+ln_1 end on-time 1301928960
+attn end on-time 1503255552
+ln_2 end on-time 1553587200
+mlp end on-time 1603918848
+start on-time 1402592256
+ln_1 end on-time 1452923904
+attn end on-time 1654250496
+ln_2 end on-time 1704582144
+mlp end on-time 1754913792
+start on-time 1553587200
+ln_1 end on-time 1603918848
+attn end on-time 1805245440
+ln_2 end on-time 1855577088
+mlp end on-time 1905908736
+start on-time 1704582144
+ln_1 end on-time 1754913792
+attn end on-time 1956240384
+ln_2 end on-time 2006572032
+mlp end on-time 2056903680
+start on-time 1855577088
+ln_1 end on-time 1905908736
+attn end on-time 2107235328
+ln_2 end on-time 2157566976
+mlp end on-time 2207898624
+start on-time 2006572032
+ln_1 end on-time 2056903680
+attn end on-time 2258230272
+ln_2 end on-time 2308561920
+mlp end on-time 2358893568
+start on-time 2157566976
+ln_1 end on-time 2207898624
+attn end on-time 2409225216
+ln_2 end on-time 2459556864
+mlp end on-time 2509888512
+start on-time 2308561920
+ln_1 end on-time 2358893568
+attn end on-time 2560220160
+ln_2 end on-time 2610551808
+mlp end on-time 2660883456
+Test: [0/2]	Time  0.639 ( 0.639)
+end_max: 3415858176
+end_now 595184640
+start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 949607424
+ln_2 end on-time 999939072
+mlp end on-time 1050270720
+start on-time 848944128
+ln_1 end on-time 899275776
+attn end on-time 1100602368
+ln_2 end on-time 1150934016
+mlp end on-time 1201265664
+start on-time 999939072
+ln_1 end on-time 1050270720
+attn end on-time 1251597312
+ln_2 end on-time 1301928960
+mlp end on-time 1352260608
+start on-time 1150934016
+ln_1 end on-time 1201265664
+attn end on-time 1402592256
+ln_2 end on-time 1452923904
+mlp end on-time 1503255552
+start on-time 1301928960
+ln_1 end on-time 1352260608
+attn end on-time 1553587200
+ln_2 end on-time 1603918848
+mlp end on-time 1654250496
+start on-time 1452923904
+ln_1 end on-time 1503255552
+attn end on-time 1704582144
+ln_2 end on-time 1754913792
+mlp end on-time 1805245440
+start on-time 1603918848
+ln_1 end on-time 1654250496
+attn end on-time 1855577088
+ln_2 end on-time 1905908736
+mlp end on-time 1956240384
+start on-time 1754913792
+ln_1 end on-time 1805245440
+attn end on-time 2006572032
+ln_2 end on-time 2056903680
+mlp end on-time 2107235328
+start on-time 1905908736
+ln_1 end on-time 1956240384
+attn end on-time 2157566976
+ln_2 end on-time 2207898624
+mlp end on-time 2258230272
+start on-time 2056903680
+ln_1 end on-time 2107235328
+attn end on-time 2308561920
+ln_2 end on-time 2358893568
+mlp end on-time 2409225216
+start on-time 2207898624
+ln_1 end on-time 2258230272
+attn end on-time 2459556864
+ln_2 end on-time 2509888512
+mlp end on-time 2560220160
+start on-time 2358893568
+ln_1 end on-time 2409225216
+attn end on-time 2610551808
+ln_2 end on-time 2660883456
+mlp end on-time 2711215104
+end_max: 3466189824
+end_now 595184640
