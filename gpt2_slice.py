@@ -99,6 +99,7 @@ seed_all(1)
 
 config = GPT2Config(**gpt2_config[model_name])
 model = GPT2Model(config=config)
+model.mode = "slice"
 device_id = 1
 torch.cuda.set_device(device_id)
 print(f"=> model params: {sum(p.numel() for p in model.parameters())}")
@@ -261,7 +262,7 @@ def validate(data_loader, device_id, print_freq=10):
                     progress.display(i)
                 
                 print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
-                print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+                print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")), "\n")  # 显存量
 
                 # if i == prof_step + 30:
                 #     return 999

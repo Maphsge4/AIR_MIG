@@ -127,9 +127,11 @@ class ModelShard(nn.Module):
         self.model_shard.to(device=self.device, non_blocking=True)
 
     def forward_load(self, non_blocking: bool = True) -> None:
+        print("forward load start", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         with torch.cuda.stream(self._cpu_to_gpu_stream):
             # Restore all the parameter buffers
             self.model_shard.to(device=self.device, non_blocking=non_blocking)
+        print("forward load end", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
     # Ignore the following function for code coverage since the backward pass
     # is triggered by C++ code and cannot be calculated when overriding
@@ -139,8 +141,10 @@ class ModelShard(nn.Module):
             self.model_shard.to(self.device, non_blocking=non_blocking)
 
     def forward_drop(self, non_blocking: bool = True) -> None:
+        print("forward drop start", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         with torch.cuda.stream(self._gpu_to_cpu_stream):
             self.model_shard.to(self.offload_device, non_blocking=non_blocking)
+        print("forward drop end", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
     # Ignore the following function for code coverage since the backward pass
     # is triggered by C++ code and cannot be calculated when overriding
@@ -360,7 +364,7 @@ class ShardSyncLayer(torch.autograd.Function):
             print(f"shard {load_index} load前：", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
             model_slices[load_index].forward_load()
             print(f"shard {load_index} load后：", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
-            print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")), "\n")  # 显存量
+            print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
             nvtx.range_pop()
 
         ctx.index = index
@@ -565,7 +569,7 @@ class OffloadModel(nn.Module):
                 # print(inputs[i].numel() for i in list)  # 打印activation的大小
 
                 # inputs = self._activations[index]
-                inputs = last_inputs
+                inputs = last_inputs  # 叶博改的
                 nvtx.range_push(f"shard {index} forward")
                 print(f"index {index} on-time:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
                 print(f"index {index} max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
@@ -580,7 +584,7 @@ class OffloadModel(nn.Module):
             if index >= 0:
                 nvtx.range_push(f"a.cpu()")
                 # self._activations[index] = tuple([a.cpu() for a in list(self._activations[index])])
-                last_inputs = inputs
+                last_inputs = inputs  # 叶博修改的
                 nvtx.range_pop()
 
         # result = self._activations[-1]

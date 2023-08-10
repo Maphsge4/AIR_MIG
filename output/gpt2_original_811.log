@@ -1,0 +1,178 @@
+=> model params: 124439808
+block前的显存量： 614063104
+block forward start on-time 614063104
+ln_1 end on-time 664394752
+attn end on-time 899275776
+ln_2 end on-time 949607424
+mlp end on-time 999939072
+block后的显存量： 848944128
+block前的显存量： 798612480
+block forward start on-time 798612480
+ln_1 end on-time 848944128
+attn end on-time 1050270720
+ln_2 end on-time 1100602368
+mlp end on-time 1150934016
+block后的显存量： 999939072
+block前的显存量： 949607424
+block forward start on-time 949607424
+ln_1 end on-time 999939072
+attn end on-time 1201265664
+ln_2 end on-time 1251597312
+mlp end on-time 1301928960
+block后的显存量： 1150934016
+block前的显存量： 1100602368
+block forward start on-time 1100602368
+ln_1 end on-time 1150934016
+attn end on-time 1352260608
+ln_2 end on-time 1402592256
+mlp end on-time 1452923904
+block后的显存量： 1301928960
+block前的显存量： 1251597312
+block forward start on-time 1251597312
+ln_1 end on-time 1301928960
+attn end on-time 1503255552
+ln_2 end on-time 1553587200
+mlp end on-time 1603918848
+block后的显存量： 1452923904
+block前的显存量： 1402592256
+block forward start on-time 1402592256
+ln_1 end on-time 1452923904
+attn end on-time 1654250496
+ln_2 end on-time 1704582144
+mlp end on-time 1754913792
+block后的显存量： 1603918848
+block前的显存量： 1553587200
+block forward start on-time 1553587200
+ln_1 end on-time 1603918848
+attn end on-time 1805245440
+ln_2 end on-time 1855577088
+mlp end on-time 1905908736
+block后的显存量： 1754913792
+block前的显存量： 1704582144
+block forward start on-time 1704582144
+ln_1 end on-time 1754913792
+attn end on-time 1956240384
+ln_2 end on-time 2006572032
+mlp end on-time 2056903680
+block后的显存量： 1905908736
+block前的显存量： 1855577088
+block forward start on-time 1855577088
+ln_1 end on-time 1905908736
+attn end on-time 2107235328
+ln_2 end on-time 2157566976
+mlp end on-time 2207898624
+block后的显存量： 2056903680
+block前的显存量： 2006572032
+block forward start on-time 2006572032
+ln_1 end on-time 2056903680
+attn end on-time 2258230272
+ln_2 end on-time 2308561920
+mlp end on-time 2358893568
+block后的显存量： 2207898624
+block前的显存量： 2157566976
+block forward start on-time 2157566976
+ln_1 end on-time 2207898624
+attn end on-time 2409225216
+ln_2 end on-time 2459556864
+mlp end on-time 2509888512
+block后的显存量： 2358893568
+block前的显存量： 2308561920
+block forward start on-time 2308561920
+ln_1 end on-time 2358893568
+attn end on-time 2560220160
+ln_2 end on-time 2610551808
+mlp end on-time 2660883456
+block后的显存量： 2509888512
+ln_f_end: 2509888512
+Test: [0/2]	Time  0.621 ( 0.621)
+end_max: 3415858176
+end_now 595184640 
+
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 949607424
+ln_2 end on-time 999939072
+mlp end on-time 1050270720
+block后的显存量： 899275776
+block前的显存量： 848944128
+block forward start on-time 848944128
+ln_1 end on-time 899275776
+attn end on-time 1100602368
+ln_2 end on-time 1150934016
+mlp end on-time 1201265664
+block后的显存量： 1050270720
+block前的显存量： 999939072
+block forward start on-time 999939072
+ln_1 end on-time 1050270720
+attn end on-time 1251597312
+ln_2 end on-time 1301928960
+mlp end on-time 1352260608
+block后的显存量： 1201265664
+block前的显存量： 1150934016
+block forward start on-time 1150934016
+ln_1 end on-time 1201265664
+attn end on-time 1402592256
+ln_2 end on-time 1452923904
+mlp end on-time 1503255552
+block后的显存量： 1352260608
+block前的显存量： 1301928960
+block forward start on-time 1301928960
+ln_1 end on-time 1352260608
+attn end on-time 1553587200
+ln_2 end on-time 1603918848
+mlp end on-time 1654250496
+block后的显存量： 1503255552
+block前的显存量： 1452923904
+block forward start on-time 1452923904
+ln_1 end on-time 1503255552
+attn end on-time 1704582144
+ln_2 end on-time 1754913792
+mlp end on-time 1805245440
+block后的显存量： 1654250496
+block前的显存量： 1603918848
+block forward start on-time 1603918848
+ln_1 end on-time 1654250496
+attn end on-time 1855577088
+ln_2 end on-time 1905908736
+mlp end on-time 1956240384
+block后的显存量： 1805245440
+block前的显存量： 1754913792
+block forward start on-time 1754913792
+ln_1 end on-time 1805245440
+attn end on-time 2006572032
+ln_2 end on-time 2056903680
+mlp end on-time 2107235328
+block后的显存量： 1956240384
+block前的显存量： 1905908736
+block forward start on-time 1905908736
+ln_1 end on-time 1956240384
+attn end on-time 2157566976
+ln_2 end on-time 2207898624
+mlp end on-time 2258230272
+block后的显存量： 2107235328
+block前的显存量： 2056903680
+block forward start on-time 2056903680
+ln_1 end on-time 2107235328
+attn end on-time 2308561920
+ln_2 end on-time 2358893568
+mlp end on-time 2409225216
+block后的显存量： 2258230272
+block前的显存量： 2207898624
+block forward start on-time 2207898624
+ln_1 end on-time 2258230272
+attn end on-time 2459556864
+ln_2 end on-time 2509888512
+mlp end on-time 2560220160
+block后的显存量： 2409225216
+block前的显存量： 2358893568
+block forward start on-time 2358893568
+ln_1 end on-time 2409225216
+attn end on-time 2610551808
+ln_2 end on-time 2660883456
+mlp end on-time 2711215104
+block后的显存量： 2560220160
+ln_f_end: 2560220160
+end_max: 3466189824
+end_now 595184640 
+

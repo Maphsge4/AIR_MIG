@@ -430,7 +430,7 @@ def initialize_data_loader(
 #         num_workers=num_data_workers,
 #         pin_memory=True,
 #     )
-    val_dataset = RandomDataset(batch_size * 6, batch_size)
+    val_dataset = RandomDataset(batch_size * 2, batch_size)
     val_loader = DataLoader(
         val_dataset,
         batch_size=batch_size,

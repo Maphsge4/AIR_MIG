@@ -1,0 +1,264 @@
+=> set cuda device = 0
+=> creating model: bert
+=> model params: 335174458
+=> done restoring from previous checkpoint
+masked start on-time 132430336
+start on-time 132561408
+embeddings end on-time 199670272
+forward load start 199670272
+forward load end 250055168
+model shard forward max: 403225088
+forward drop start 417827328
+forward drop end 367442432
+forward load start 367442432
+forward load end 417827328
+model shard forward max: 1692895744
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+forward load start 434551296
+forward load end 484936192
+model shard forward max: 1760004608
+forward drop start 484936192
+forward drop end 434551296
+encoder end on-time 300333568
+pooler end on-time 300333568
+bert end on-time 233093632
+cls end on-time 295602688
+Test: [0/2]	Time  2.795 ( 2.795)
+end_max: 1760004608
+end_now 295602688
+masked start on-time 295602688
+start on-time 295733760
+embeddings end on-time 362842624
+forward load start 295733760
+forward load end 346118656
+model shard forward max: 1760004608
+forward drop start 480336384
+forward drop end 429951488
+forward load start 429951488
+forward load end 480336384
+model shard forward max: 1760004608
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+forward load start 497060352
+forward load end 547445248
+model shard forward max: 1822513664
+forward drop start 547445248
+forward drop end 497060352
+encoder end on-time 362842624
+pooler end on-time 362842624
+bert end on-time 295602688
+cls end on-time 358111744
+end_max: 1822513664
+end_now 295602688
+The total time cost is: 30.379008769989014s

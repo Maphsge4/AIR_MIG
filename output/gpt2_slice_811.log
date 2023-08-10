@@ -1,0 +1,489 @@
+=> model params: 124439808
+现在的
+max: 158341120
+now 158341120
+shard 0 load前： 260731904
+forward load start 260731904
+forward load end 290132480
+shard 0 load后： 290132480
+max: 290132480 
+
+index 0 on-time: 290132480
+index 0 max: 290132480
+model shard forward max: 290132480
+start on-time 290132480
+ln_1 end on-time 340464128
+attn end on-time 575345152
+ln_2 end on-time 625676800
+mlp end on-time 676008448
+index 0 on-time: 374018560
+index 0 max: 1430983168
+shard 0 drop前： 374018560
+forward drop start 374018560
+forward drop end 344617984
+shard 0 drop后： 344617984
+shard 1 load前： 344617984
+forward load start 344617984
+forward load end 374018560
+shard 1 load后： 374018560
+max: 1430983168 
+
+index 1 on-time: 374018560
+index 1 max: 1430983168
+model shard forward max: 1430983168
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 1 on-time: 424350208
+index 1 max: 1481314816
+shard 1 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 1 drop后： 394949632
+shard 2 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 2 load后： 424350208
+max: 1481314816 
+
+index 2 on-time: 374018560
+index 2 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 2 on-time: 424350208
+index 2 max: 1481314816
+shard 2 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 2 drop后： 394949632
+shard 3 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 3 load后： 424350208
+max: 1481314816 
+
+index 3 on-time: 374018560
+index 3 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 3 on-time: 424350208
+index 3 max: 1481314816
+shard 3 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 3 drop后： 394949632
+shard 4 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 4 load后： 424350208
+max: 1481314816 
+
+index 4 on-time: 374018560
+index 4 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 4 on-time: 424350208
+index 4 max: 1481314816
+shard 4 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 4 drop后： 394949632
+shard 5 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 5 load后： 424350208
+max: 1481314816 
+
+index 5 on-time: 374018560
+index 5 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 5 on-time: 424350208
+index 5 max: 1481314816
+shard 5 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 5 drop后： 394949632
+shard 6 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 6 load后： 424350208
+max: 1481314816 
+
+index 6 on-time: 374018560
+index 6 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 6 on-time: 424350208
+index 6 max: 1481314816
+shard 6 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 6 drop后： 394949632
+shard 7 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 7 load后： 424350208
+max: 1481314816 
+
+index 7 on-time: 374018560
+index 7 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 7 on-time: 424350208
+index 7 max: 1481314816
+shard 7 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 7 drop后： 394949632
+shard 8 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 8 load后： 424350208
+max: 1481314816 
+
+index 8 on-time: 374018560
+index 8 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 8 on-time: 424350208
+index 8 max: 1481314816
+shard 8 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 8 drop后： 394949632
+shard 9 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 9 load后： 424350208
+max: 1481314816 
+
+index 9 on-time: 374018560
+index 9 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 9 on-time: 424350208
+index 9 max: 1481314816
+shard 9 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 9 drop后： 394949632
+shard 10 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 10 load后： 424350208
+max: 1481314816 
+
+index 10 on-time: 374018560
+index 10 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 10 on-time: 424350208
+index 10 max: 1481314816
+shard 10 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 10 drop后： 394949632
+shard 11 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 11 load后： 424350208
+max: 1481314816 
+
+index 11 on-time: 374018560
+index 11 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 11 on-time: 424350208
+index 11 max: 1481314816
+shard 11 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 11 drop后： 394949632
+Test: [0/2]	Time  0.697 ( 0.697)
+end_max: 1481314816
+end_now 242377728
+shard 0 load前： 344617984
+forward load start 344617984
+forward load end 374018560
+shard 0 load后： 374018560
+max: 1481314816 
+
+index 0 on-time: 374018560
+index 0 max: 1481314816
+model shard forward max: 1481314816
+start on-time 374018560
+ln_1 end on-time 424350208
+attn end on-time 625676800
+ln_2 end on-time 676008448
+mlp end on-time 726340096
+index 0 on-time: 424350208
+index 0 max: 1481314816
+shard 0 drop前： 424350208
+forward drop start 424350208
+forward drop end 394949632
+shard 0 drop后： 394949632
+shard 1 load前： 394949632
+forward load start 394949632
+forward load end 424350208
+shard 1 load后： 424350208
+max: 1481314816 
+
+index 1 on-time: 424350208
+index 1 max: 1481314816
+model shard forward max: 1481314816
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 1 on-time: 474681856
+index 1 max: 1531646464
+shard 1 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 1 drop后： 445281280
+shard 2 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 2 load后： 474681856
+max: 1531646464 
+
+index 2 on-time: 424350208
+index 2 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 2 on-time: 474681856
+index 2 max: 1531646464
+shard 2 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 2 drop后： 445281280
+shard 3 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 3 load后： 474681856
+max: 1531646464 
+
+index 3 on-time: 424350208
+index 3 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 3 on-time: 474681856
+index 3 max: 1531646464
+shard 3 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 3 drop后： 445281280
+shard 4 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 4 load后： 474681856
+max: 1531646464 
+
+index 4 on-time: 424350208
+index 4 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 4 on-time: 474681856
+index 4 max: 1531646464
+shard 4 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 4 drop后： 445281280
+shard 5 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 5 load后： 474681856
+max: 1531646464 
+
+index 5 on-time: 424350208
+index 5 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 5 on-time: 474681856
+index 5 max: 1531646464
+shard 5 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 5 drop后： 445281280
+shard 6 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 6 load后： 474681856
+max: 1531646464 
+
+index 6 on-time: 424350208
+index 6 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 6 on-time: 474681856
+index 6 max: 1531646464
+shard 6 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 6 drop后： 445281280
+shard 7 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 7 load后： 474681856
+max: 1531646464 
+
+index 7 on-time: 424350208
+index 7 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 7 on-time: 474681856
+index 7 max: 1531646464
+shard 7 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 7 drop后： 445281280
+shard 8 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 8 load后： 474681856
+max: 1531646464 
+
+index 8 on-time: 424350208
+index 8 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 8 on-time: 474681856
+index 8 max: 1531646464
+shard 8 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 8 drop后： 445281280
+shard 9 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 9 load后： 474681856
+max: 1531646464 
+
+index 9 on-time: 424350208
+index 9 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 9 on-time: 474681856
+index 9 max: 1531646464
+shard 9 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 9 drop后： 445281280
+shard 10 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 10 load后： 474681856
+max: 1531646464 
+
+index 10 on-time: 424350208
+index 10 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 10 on-time: 474681856
+index 10 max: 1531646464
+shard 10 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 10 drop后： 445281280
+shard 11 load前： 445281280
+forward load start 445281280
+forward load end 474681856
+shard 11 load后： 474681856
+max: 1531646464 
+
+index 11 on-time: 424350208
+index 11 max: 1531646464
+model shard forward max: 1531646464
+start on-time 424350208
+ln_1 end on-time 474681856
+attn end on-time 676008448
+ln_2 end on-time 726340096
+mlp end on-time 776671744
+index 11 on-time: 474681856
+index 11 max: 1531646464
+shard 11 drop前： 474681856
+forward drop start 474681856
+forward drop end 445281280
+shard 11 drop后： 445281280
+end_max: 1531646464
+end_now 242377728

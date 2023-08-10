@@ -387,7 +387,7 @@ class GPT2Block(nn.Module):
         output_attentions: Optional[bool] = False,
     ) -> Union[Tuple[torch.Tensor], Optional[Tuple[torch.Tensor, Tuple[torch.FloatTensor, ...]]]]:
         residual = hidden_states
-        print("start on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+        print("block forward start on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         hidden_states = self.ln_1(hidden_states)
         print("ln_1 end on-time", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
         attn_outputs = self.attn(
@@ -697,6 +697,8 @@ class GPT2Model(GPT2PreTrainedModel):
         # Initialize weights and apply final processing
         self.post_init()
 
+        self.mode = None
+
     def to_cuda(self):
         self.wte = self.wte.cuda()
         self.wpe = self.wpe.cuda()
@@ -904,78 +906,94 @@ class GPT2Model(GPT2PreTrainedModel):
         all_self_attentions = () if output_attentions else None
         all_cross_attentions = () if output_attentions and self.config.add_cross_attention else None
         all_hidden_states = () if output_hidden_states else None
-        # for i, (block, layer_past) in enumerate(zip(self.h, past_key_values)):  # 原来是h
-        #     # Model parallel
-        #     if self.model_parallel:
-        #         torch.cuda.set_device(hidden_states.device)
-        #         # Ensure layer_past is on same device as hidden_states (might not be correct)
-        #         if layer_past is not None:
-        #             layer_past = tuple(past_state.to(hidden_states.device) for past_state in layer_past)
-        #         # Ensure that attention_mask is always on the same device as hidden_states
-        #         if attention_mask is not None:
-        #             attention_mask = attention_mask.to(hidden_states.device)
-        #         if isinstance(head_mask, torch.Tensor):
-        #             head_mask = head_mask.to(hidden_states.device)
-        #     if output_hidden_states:
-        #         all_hidden_states = all_hidden_states + (hidden_states,)
 
-        #     if self.gradient_checkpointing and self.training:
+        if self.mode == "original":
+            for i, (block, layer_past) in enumerate(zip(self.h, past_key_values)):  # 原来是h
+                # Model parallel
+                if self.model_parallel:
+                    torch.cuda.set_device(hidden_states.device)
+                    # Ensure layer_past is on same device as hidden_states (might not be correct)
+                    if layer_past is not None:
+                        layer_past = tuple(past_state.to(hidden_states.device) for past_state in layer_past)
+                    # Ensure that attention_mask is always on the same device as hidden_states
+                    if attention_mask is not None:
+                        attention_mask = attention_mask.to(hidden_states.device)
+                    if isinstance(head_mask, torch.Tensor):
+                        head_mask = head_mask.to(hidden_states.device)
+                if output_hidden_states:
+                    all_hidden_states = all_hidden_states + (hidden_states,)
 
-        #         def create_custom_forward(module):
-        #             def custom_forward(*inputs):
-        #                 # None for past_key_value
-        #                 return module(*inputs, use_cache, output_attentions)
+                if self.gradient_checkpointing and self.training:
 
-        #             return custom_forward
+                    def create_custom_forward(module):
+                        def custom_forward(*inputs):
+                            # None for past_key_value
+                            return module(*inputs, use_cache, output_attentions)
 
-        #         outputs = torch.utils.checkpoint.checkpoint(
-        #             create_custom_forward(block),
-        #             hidden_states,
-        #             None,
-        #             attention_mask,
-        #             head_mask[i],
-        #             encoder_hidden_states,
-        #             encoder_attention_mask,
-        #         )
-        #     else:  # 就这儿需要改！
-        #         outputs = block(
-        #             hidden_states,
-        #             layer_past=layer_past,
-        #             attention_mask=attention_mask,
-        #             head_mask=head_mask[i],
-        #             encoder_hidden_states=encoder_hidden_states,
-        #             encoder_attention_mask=encoder_attention_mask,
-        #             use_cache=use_cache,
-        #             output_attentions=output_attentions,
-        #         )
+                        return custom_forward
 
-        #     hidden_states = outputs[0]
-        #     if use_cache is True:
-        #         presents = presents + (outputs[1],)
+                    outputs = torch.utils.checkpoint.checkpoint(
+                        create_custom_forward(block),
+                        hidden_states,
+                        None,
+                        attention_mask,
+                        head_mask[i],
+                        encoder_hidden_states,
+                        encoder_attention_mask,
+                    )
+                else:  # 就这儿需要改！
+                    print("block前的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
+                    outputs = block(
+                        hidden_states,
+                        # outputs[0],  # 降显存
+                        layer_past=layer_past,
+                        attention_mask=attention_mask,
+                        head_mask=head_mask[i],
+                        encoder_hidden_states=encoder_hidden_states,
+                        encoder_attention_mask=encoder_attention_mask,
+                        use_cache=use_cache,
+                        output_attentions=output_attentions,
+                    )
+                    print("block后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
+                
+                print("hidden_states前的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
+                hidden_states = outputs[0]  # 在cuda上
+                print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
+                hidden_states = hidden_states.to("cpu")
+                print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
+                hidden_states = hidden_states.to("cuda")
+                print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
 
-        #     if output_attentions:
-        #         all_self_attentions = all_self_attentions + (outputs[2 if use_cache else 1],)
-        #         if self.config.add_cross_attention:
-        #             all_cross_attentions = all_cross_attentions + (outputs[3 if use_cache else 2],)
+                if use_cache is True:
+                    presents = presents + (outputs[1],)
 
-        #     # Model Parallel: If it's the last layer for that device, put things on the next device
-        #     if self.model_parallel:
-        #         for k, v in self.device_map.items():
-        #             if i == v[-1] and "cuda:" + str(k) != self.last_device:
-        #                 hidden_states = hidden_states.to("cuda:" + str(k + 1))
+                if output_attentions:
+                    all_self_attentions = all_self_attentions + (outputs[2 if use_cache else 1],)
+                    if self.config.add_cross_attention:
+                        all_cross_attentions = all_cross_attentions + (outputs[3 if use_cache else 2],)
 
-        hidden_states = self.hh(
-            hidden_states,
-            layer_past=past_key_values,  # 原本是layer_past
-            attention_mask=attention_mask,
-            head_mask=head_mask,  # 原本有[i]
-            encoder_hidden_states=encoder_hidden_states,
-            encoder_attention_mask=encoder_attention_mask,
-            use_cache=use_cache,
-            output_attentions=output_attentions,
-        )  # maphsge4 add offload
+                # Model Parallel: If it's the last layer for that device, put things on the next device
+                if self.model_parallel:
+                    for k, v in self.device_map.items():
+                        if i == v[-1] and "cuda:" + str(k) != self.last_device:
+                            hidden_states = hidden_states.to("cuda:" + str(k + 1))
+       
+        elif self.mode == "slice":
+            print("hh_start:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
+            hidden_states = self.hh(
+                hidden_states,
+                layer_past=past_key_values,  # 原本是layer_past
+                attention_mask=attention_mask,
+                head_mask=head_mask,  # 原本有[i]
+                encoder_hidden_states=encoder_hidden_states,
+                encoder_attention_mask=encoder_attention_mask,
+                use_cache=use_cache,
+                output_attentions=output_attentions,
+            )  # maphsge4 add offload
+            print("hh_end:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
         hidden_states = self.ln_f(hidden_states)
+        print("ln_f_end:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
         hidden_states = hidden_states.view(output_shape)
         # Add last hidden state
