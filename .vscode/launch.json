@@ -43,6 +43,14 @@
             "program": "memory_plot_test.py",
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "GPT2 SELECT n",
+            "type": "python",
+            "request": "launch",
+            "program": "gpt2_select_n.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
         }
     ]
 }

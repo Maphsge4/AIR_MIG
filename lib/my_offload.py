@@ -367,6 +367,7 @@ class ShardSyncLayer(torch.autograd.Function):
             print("max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
             nvtx.range_pop()
 
+        # 这是什么意思？
         ctx.index = index
         ctx.model_slices = model_slices
         ctx.model_instance = model_instance
@@ -491,6 +492,8 @@ class OffloadModel(nn.Module):
         self.offload_device = offload_device
         # List of model shards that will be placed on/off the device.
         self.model_slices: List[nn.Module] = []
+
+        self.device_list = device_list
 
         # TODO(anj): Add an experimental flag for using this instead of modifying the
         # arg type.

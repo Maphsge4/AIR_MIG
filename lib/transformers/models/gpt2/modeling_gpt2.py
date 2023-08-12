@@ -705,6 +705,10 @@ class GPT2Model(GPT2PreTrainedModel):
         self.drop = self.drop.cuda()
         self.ln_f = self.ln_f.cuda()
 
+        for i, m in enumerate(self.hh.model_slices):
+            if self.hh.device_list[i] == 1:
+                self.hh.model_slices[i].cuda()
+
     @add_start_docstrings(PARALLELIZE_DOCSTRING)
     def parallelize(self, device_map=None):
         # Check validity of device_map
