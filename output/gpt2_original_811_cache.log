@@ -1,0 +1,202 @@
+=> model params: 124439808
+block前的显存量： 614063104
+block forward start on-time 614063104
+ln_1 end on-time 664394752
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+ln_f_end: 697949184
+Test: [0/2]	Time  0.632 ( 0.632)
+end_max: 1654251008
+end_now 595184640 
+
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+ln_f_end: 748280832
+end_max: 1704582656
+end_now 595184640 
+

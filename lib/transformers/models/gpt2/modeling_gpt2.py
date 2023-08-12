@@ -813,6 +813,7 @@ class GPT2Model(GPT2PreTrainedModel):
             output_hidden_states if output_hidden_states is not None else self.config.output_hidden_states
         )
         use_cache = use_cache if use_cache is not None else self.config.use_cache
+        use_cache = False  # debug test
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
 
         if input_ids is not None and inputs_embeds is not None:
@@ -956,13 +957,12 @@ class GPT2Model(GPT2PreTrainedModel):
                     )
                     print("block后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
                 
-                print("hidden_states前的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
-                hidden_states = outputs[0]  # 在cuda上
+                hidden_states = outputs[0]  # hidden_states显存变小是因为本身有值，赋的新值比原来的值小
                 print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
-                hidden_states = hidden_states.to("cpu")
-                print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
-                hidden_states = hidden_states.to("cuda")
-                print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
+                # hidden_states = hidden_states.to("cpu")  # to cpu之后肯定显存不会下降，因为hidden_states是output[0]的引用，output[0]没删，显存就不会变小
+                # print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
+                # hidden_states = hidden_states.to("cuda")  # 再次to cuda的话，是一个复制，所以显存又会变大！
+                # print("hidden_states后的显存量：", torch.cuda.memory_allocated(device=torch.device("cuda")))
 
                 if use_cache is True:
                     presents = presents + (outputs[1],)
