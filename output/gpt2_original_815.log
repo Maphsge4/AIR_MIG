@@ -1,0 +1,205 @@
+=> model params: 124439808
+block前的显存量： 614063104
+block forward start on-time 614063104
+ln_1 end on-time 664394752
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+block前的显存量： 647617536
+block forward start on-time 647617536
+ln_1 end on-time 697949184
+attn end on-time 748280832
+ln_2 end on-time 798612480
+mlp end on-time 848944128
+block后的显存量： 697949184
+hidden_states后的显存量： 647617536
+ln_f_end: 697949184
+Test: [0/4]	Time  0.695 ( 0.695)
+end_max: 1654251008
+end_now 595184640 
+
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+block前的显存量： 697949184
+block forward start on-time 697949184
+ln_1 end on-time 748280832
+attn end on-time 798612480
+ln_2 end on-time 848944128
+mlp end on-time 899275776
+block后的显存量： 748280832
+hidden_states后的显存量： 697949184
+ln_f_end: 748280832
+Test: [1/4]	Time  0.242 ( 0.468)
+end_max: 1704582656
+end_now 595184640 
+
+Generating '/tmp/nsys-report-1144.qdstrm'
+[1/1] [0%                          ] report5.nsys-rep[1/1] [0%                          ] report5.nsys-rep[1/1] [12%                         ] report5.nsys-rep[1/1] [===24%                      ] report5.nsys-rep[1/1] [0%                          ] report5.nsys-rep[1/1] [0%                          ] report5.nsys-rep[1/1] [5%                          ] report5.nsys-rep[1/1] [==20%                       ] report5.nsys-rep[1/1] [======35%                   ] report5.nsys-rep[1/1] [=========43%                ] report5.nsys-rep[1/1] [==========49%               ] report5.nsys-rep[1/1] [===========50%              ] report5.nsys-rep[1/1] [===========51%              ] report5.nsys-rep[1/1] [===========52%              ] report5.nsys-rep[1/1] [===========53%              ] report5.nsys-rep[1/1] [============54%             ] report5.nsys-rep[1/1] [============55%             ] report5.nsys-rep[1/1] [============56%             ] report5.nsys-rep[1/1] [============57%             ] report5.nsys-rep[1/1] [=============58%            ] report5.nsys-rep[1/1] [=============59%            ] report5.nsys-rep[1/1] [=============60%            ] report5.nsys-rep[1/1] [==============61%           ] report5.nsys-rep[1/1] [==============62%           ] report5.nsys-rep[1/1] [==============63%           ] report5.nsys-rep[1/1] [==============64%           ] report5.nsys-rep[1/1] [===============65%          ] report5.nsys-rep[1/1] [===============66%          ] report5.nsys-rep[1/1] [===============67%          ] report5.nsys-rep[1/1] [================68%         ] report5.nsys-rep[1/1] [================69%         ] report5.nsys-rep[1/1] [================70%         ] report5.nsys-rep[1/1] [================71%         ] report5.nsys-rep[1/1] [=================72%        ] report5.nsys-rep[1/1] [=================73%        ] report5.nsys-rep[1/1] [=================74%        ] report5.nsys-rep[1/1] [==================75%       ] report5.nsys-rep[1/1] [==================76%       ] report5.nsys-rep[1/1] [==================77%       ] report5.nsys-rep[1/1] [==================78%       ] report5.nsys-rep[1/1] [===================79%      ] report5.nsys-rep[1/1] [===================80%      ] report5.nsys-rep[1/1] [===================81%      ] report5.nsys-rep[1/1] [===================82%      ] report5.nsys-rep[1/1] [====================83%     ] report5.nsys-rep[1/1] [====================84%     ] report5.nsys-rep[1/1] [====================85%     ] report5.nsys-rep[1/1] [=====================86%    ] report5.nsys-rep[1/1] [=====================87%    ] report5.nsys-rep[1/1] [=====================88%    ] report5.nsys-rep[1/1] [=====================89%    ] report5.nsys-rep[1/1] [======================90%   ] report5.nsys-rep

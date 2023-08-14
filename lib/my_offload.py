@@ -473,7 +473,8 @@ class OffloadModel(nn.Module):
         num_slices: int = 3,
         checkpoint_activation: bool = False,
         num_microbatches: int = 1,
-        device_list = None
+        device_list = None,
+        name = None
     ):
         super().__init__()
         if not model:
@@ -494,6 +495,7 @@ class OffloadModel(nn.Module):
         self.model_slices: List[nn.Module] = []
 
         self.device_list = device_list
+        self.name = name
 
         # TODO(anj): Add an experimental flag for using this instead of modifying the
         # arg type.
@@ -556,13 +558,15 @@ class OffloadModel(nn.Module):
             return OffloadFunction.apply(*inputs, torch.tensor([], requires_grad=True), self)  # 准备加_
 
         self._activations = []
-        past_key_values = _['layer_past']  # maphsge4 add
-        head_mask = _['head_mask']  # maphsge4 add
+        if self.name == "gpt2":
+            past_key_values = _['layer_past']  # maphsge4 add
+            head_mask = _['head_mask']  # maphsge4 add
         last_inputs = inputs
         for index in range(-1, len(self.model_slices)):
             if index >= 0:
-                _['layer_past'] = past_key_values[index]  # maphsge4 add
-                _['head_mask'] = head_mask[index]  # maphsge4 add
+                if self.name == "gpe2":
+                    _['layer_past'] = past_key_values[index]  # maphsge4 add
+                    _['head_mask'] = head_mask[index]  # maphsge4 add
                 # TODO(anj-s): This might be a redundant call since we have the previous
                 # activation on the device already.
                 # print(index)  # activation
@@ -576,7 +580,10 @@ class OffloadModel(nn.Module):
                 nvtx.range_push(f"shard {index} forward")
                 print(f"index {index} on-time:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
                 print(f"index {index} max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
-                inputs = self.model_slices[index](*inputs, **_)[0]  # 实际上是调用slices的forward
+                if self.name == "gpe2":
+                    inputs = self.model_slices[index](*inputs, **_)[0]  # 实际上是调用slices的forward
+                else:
+                    inputs = self.model_slices[index](*inputs)[0]
                 print(f"index {index} on-time:", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
                 print(f"index {index} max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
                 nvtx.range_pop()

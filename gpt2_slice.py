@@ -14,6 +14,7 @@ import torch.nn as nn
 from lib.profiler import FlopsProfiler
 from lib.my_offload import OffloadModel 
 from typing import List, Tuple
+from lib.fragile import fragile
 
 model_name = 'gpt2-large'
 batch_size = 32
@@ -163,7 +164,7 @@ def prepare_dataloader(length, batch_size):
 
     return loader
 
-dataloader = prepare_dataloader(2 * batch_size, batch_size)
+dataloader = prepare_dataloader(4 * batch_size, batch_size)
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
@@ -205,7 +206,7 @@ class ProgressMeter(object):
         fmt = "{:" + str(num_digits) + "d}"
         return "[" + fmt + "/" + fmt.format(num_batches) + "]"
 
-def validate(data_loader, device_id, print_freq=10):
+def validate(data_loader, device_id, print_freq=1):
     trace_dir = pathlib.Path(__file__).parent.joinpath("traces")
     now = datetime.datetime.now().strftime("%Y_%m_%d:%H.%M.%S")
     trace_dir.mkdir(exist_ok=True)
@@ -229,7 +230,7 @@ def validate(data_loader, device_id, print_freq=10):
     with torch.no_grad():
         end = time.time()
         gc.collect()
-        with torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True) as p:
+        with fragile(torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True)) as p:
             for i, (images, target) in enumerate(data_loader):
                 # gc.collect()
                 if i == prof_step:  # add profile
@@ -264,8 +265,8 @@ def validate(data_loader, device_id, print_freq=10):
                 print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
                 print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")), "\n")  # 显存量
 
-                # if i == prof_step + 30:
-                #     return 999
+                # if i == 1:
+                #     raise fragile.Break
 
             gc.collect()
         p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())

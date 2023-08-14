@@ -33,7 +33,7 @@ from torch.optim import SGD
 from torch.utils.data import DataLoader
 
 from transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARCHIVE_MAP
-
+from lib.fragile import fragile
 from lib.profiler import FlopsProfiler
 
 import datetime
@@ -149,7 +149,7 @@ parser.add_argument(
 parser.add_argument(
     "-p",
     "--print-freq",
-    default=10,
+    default=1,
     type=int,
     metavar="N",
     help="print frequency (default: 10)",
@@ -411,7 +411,7 @@ def initialize_data_loader(
     #         num_workers=num_data_workers,
     #         pin_memory=True,
     #     )
-    val_dataset = RandomDataset(batch_size * 6, batch_size)
+    val_dataset = RandomDataset(batch_size * 4, batch_size)
     val_loader = DataLoader(
         val_dataset,
         batch_size=batch_size,
@@ -624,7 +624,7 @@ def validate(
     with torch.no_grad():
         end = time.time()
         gc.collect()
-        with torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True) as p:
+        with fragile(torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True)) as p:
             for i, (images, target) in enumerate(val_loader):
 
                 if i == prof_step:  # add profile
@@ -660,11 +660,8 @@ def validate(
                 print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
                 print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
-                # if i == prof_step:
-                #     return 999
-
-                if i == 2:
-                    gc.collect()
+                # if i == 1:
+                #     raise fragile.Break
                 
         p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())
 

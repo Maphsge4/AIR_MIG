@@ -35,6 +35,7 @@ from torch.utils.data import DataLoader
 from lib.transformers import BertConfig, BertForMaskedLM, BERT_PRETRAINED_CONFIG_ARCHIVE_MAP
 from lib.my_offload import OffloadModel 
 from lib.profiler import FlopsProfiler 
+from lib.fragile import fragile
 
 import datetime
 import gc
@@ -149,7 +150,7 @@ parser.add_argument(
 parser.add_argument(
     "-p",
     "--print-freq",
-    default=10,
+    default=1,
     type=int,
     metavar="N",
     help="print frequency (default: 10)",
@@ -219,26 +220,6 @@ def main():
         # print("yes!!")  # debug
         validate(val_loader, model, criterion, device_id, print_freq)
         return
-
-    start_epoch = state.epoch + 1
-    print(f"=> start_epoch: {start_epoch}, best_acc1: {state.best_acc1}")
-
-    
-    for epoch in range(start_epoch, args.epochs):
-        state.epoch = epoch
-        # train_loader.batch_sampler.sampler.set_epoch(epoch)
-        adjust_learning_rate(optimizer, epoch, args.lr)
-
-        # train for one epoch
-        train(train_loader, model, criterion, optimizer, epoch, device_id, print_freq, args.batch_size)
-
-        # evaluate on validation set
-        # acc1 = validate(val_loader, model, criterion, device_id, print_freq)
-
-        # remember best acc@1 and save checkpoint
-     #    is_best = acc1 > state.best_acc1
-     #    state.best_acc1 = max(acc1, state.best_acc1)
-
 
 class State:
     """
@@ -342,7 +323,7 @@ def initialize_model(
         device=torch.device("cuda"), # 用于计算向前和向后传播的设备
         offload_device=torch.device("cpu"), # 模型将存储在其上的offload 设备
         num_slices=10, # 模型应分片的片数
-        checkpoint_activation=True,
+        checkpoint_activation=False,
         num_microbatches=1,
         device_list=[0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1]
     )
@@ -430,7 +411,7 @@ def initialize_data_loader(
 #         num_workers=num_data_workers,
 #         pin_memory=True,
 #     )
-    val_dataset = RandomDataset(batch_size * 2, batch_size)
+    val_dataset = RandomDataset(batch_size * 4, batch_size)
     val_loader = DataLoader(
         val_dataset,
         batch_size=batch_size,
@@ -469,150 +450,8 @@ def load_checkpoint(
         state.load(checkpoint_file, device_id)
         print(f"=> loaded checkpoint file: {checkpoint_file}")
 
-    # logic below is unnecessary when the checkpoint is visible on all nodes!
-    # create a temporary cpu pg to broadcast most up-to-date checkpoint
-    # with tmp_process_group(backend="gloo") as pg:
-    #     rank = dist.get_rank(group=pg)
-
-    #     # get rank that has the largest state.epoch
-    #     epochs = torch.zeros(dist.get_world_size(), dtype=torch.int32)
-    #     epochs[rank] = state.epoch
-    #     dist.all_reduce(epochs, op=dist.ReduceOp.SUM, group=pg)
-    #     t_max_epoch, t_max_rank = torch.max(epochs, dim=0)
-    #     max_epoch = t_max_epoch.item()
-    #     max_rank = t_max_rank.item()
-
-    #     # max_epoch == -1 means no one has checkpointed return base state
-    #     if max_epoch == -1:
-    #         print(f"=> no workers have checkpoints, starting from epoch 0")
-    #         return state
-
-    #     # broadcast the state from max_rank (which has the most up-to-date state)
-    #     # pickle the snapshot, convert it into a byte-blob tensor
-    #     # then broadcast it, unpickle it and apply the snapshot
-    #     print(f"=> using checkpoint from rank: {max_rank}, max_epoch: {max_epoch}")
-
-    #     with io.BytesIO() as f:
-    #         torch.save(state.capture_snapshot(), f)
-    #         raw_blob = numpy.frombuffer(f.getvalue(), dtype=numpy.uint8)
-
-    #     blob_len = torch.tensor(len(raw_blob))
-    #     dist.broadcast(blob_len, src=max_rank, group=pg)
-    #     print(f"=> checkpoint broadcast size is: {blob_len}")
-
-    #     if rank != max_rank:
-    #         blob = torch.zeros(blob_len.item(), dtype=torch.uint8)
-    #     else:
-    #         blob = torch.as_tensor(raw_blob, dtype=torch.uint8)
-
-    #     dist.broadcast(blob, src=max_rank, group=pg)
-    #     print(f"=> done broadcasting checkpoint")
-
-    #     if rank != max_rank:
-    #         with io.BytesIO(blob.numpy()) as f:
-    #             snapshot = torch.load(f)
-    #         state.apply_snapshot(snapshot, device_id)
-
-    #     # wait till everyone has loaded the checkpoint
-    #     dist.barrier(group=pg)
-
     print(f"=> done restoring from previous checkpoint")
     return state
-
-
-@contextmanager
-def tmp_process_group(backend):
-    cpu_pg = dist.new_group(backend=backend)
-    try:
-        yield cpu_pg
-    finally:
-        dist.destroy_process_group(cpu_pg)
-
-
-def save_checkpoint(state: State, is_best: bool, filename: str):
-    checkpoint_dir = os.path.dirname(filename)
-    os.makedirs(checkpoint_dir, exist_ok=True)
-
-    # save to tmp, then commit by moving the file in case the job
-    # gets interrupted while writing the checkpoint
-    tmp_filename = filename + ".tmp"
-    torch.save(state.capture_snapshot(), tmp_filename)
-    os.rename(tmp_filename, filename)
-    print(f"=> saved checkpoint for epoch {state.epoch} at {filename}")
-    if is_best:
-        best = os.path.join(checkpoint_dir, "model_best.pth.tar")
-        print(f"=> best model found at epoch {state.epoch} saving to {best}")
-        shutil.copyfile(filename, best)
-
-
-def train(
-    train_loader: DataLoader,
-    model: DistributedDataParallel,
-    criterion,  # nn.CrossEntropyLoss
-    optimizer,  # SGD,
-    epoch: int,
-    device_id: int,
-    print_freq: int,
-    batch_size: int,
-):
-    batch_time = AverageMeter("Time", ":6.3f")
-    data_time = AverageMeter("Data", ":6.3f")
-    losses = AverageMeter("Loss", ":.4e")
-    top1 = AverageMeter("Acc@1", ":6.2f")
-    top5 = AverageMeter("Acc@5", ":6.2f")
-    progress = ProgressMeter(
-        len(train_loader),
-        [batch_time, data_time, losses, top1, top5],
-        prefix="Epoch: [{}]".format(epoch),
-    )
-
-    # switch to train mode
-    model.train()
-
-    end = time.time()
-    # target = torch.LongTensor(batch_size).random_(1000).cuda()
-
-    prof = FlopsProfiler(model)  # add profiler
-    # prof_step = len(train_loader) // 3  # 整除3，所以会在33%的时候输出profile！
-    prof_step = 1  # debug
-
-    for i, (images, target, batch_idx) in enumerate(train_loader):
-        if batch_idx == prof_step:  # add profile
-            prof.start_profile()
-        # measure data loading time
-        data_time.update(time.time() - end)
-
-        images = images.cuda(device_id, non_blocking=True)
-        target = target.cuda(device_id, non_blocking=True)
-
-        # compute output
-        output = model(images).logits   # output: [batch_size, seq_len, vocab_size]
-        # target: [batch_size, seq_len*0.15]
-
-        if batch_idx == prof_step:  # add profile
-            prof.print_model_profile(profile_step=batch_idx)
-            prof.end_profile()
-
-        loss = criterion(output[:, :int(512*0.15), :].permute((0,2,1)), target)
-
-        # measure accuracy and record loss
-        #acc1, acc5 = accuracy(output, target, topk=(1, 5))
-        losses.update(loss.item(), images.size(0))
-        #top1.update(acc1[0], images.size(0))
-        #top5.update(acc5[0], images.size(0))
-
-        # compute gradient and do SGD step
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        # measure elapsed time
-        batch_time.update(time.time() - end)
-        end = time.time()
-
-        if i % print_freq == 0:
-            progress.display(i)
-
 
 def validate(
     val_loader: DataLoader,
@@ -643,9 +482,8 @@ def validate(
     with torch.no_grad():
         end = time.time()
         gc.collect()
-        with torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True) as p:
-            for i, (images, target) in enumerate(val_loader):
-
+        with fragile(torch.profiler.profile(record_shapes=True, profile_memory=True, with_stack=True)) as p:
+            for i, (images, target) in enumerate(val_loader):   
                 if i == prof_step:  # add profile
                     prof.start_profile()
 
@@ -662,12 +500,6 @@ def validate(
                     prof.print_model_profile(profile_step=i)
                     prof.end_profile()
 
-                # measure accuracy and record loss
-                # acc1, acc5 = accuracy(output, target, topk=(1, 5))
-                # losses.update(loss.item(), images.size(0))
-                # top1.update(acc1[0], images.size(0))
-                # top5.update(acc5[0], images.size(0))
-
                 # measure elapsed time
                 batch_time.update(time.time() - end)
                 end = time.time()
@@ -678,19 +510,10 @@ def validate(
                 print("end_max:", torch.cuda.max_memory_allocated(device=torch.device("cuda")))  # 显存量
                 print("end_now", torch.cuda.memory_allocated(device=torch.device("cuda")))  # 显存量
 
-                # if i == prof_step:
-                #     return 999
-
-                if i == 2:
-                    gc.collect()
-
-        p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())
-
+                # if i == 1:
+                #     raise fragile.Break
         
-        # TODO: this should also be done with the ProgressMeter
-        # print(
-        #     " * Acc@1 {top1.avg:.3f} Acc@5 {top5.avg:.3f}".format(top1=top1, top5=top5)
-        # )
+        p.export_memory_timeline(str(trace_dir.joinpath(f"linear_stack_{now}.html")), torch.cuda.current_device())
 
     return top1.avg
 
